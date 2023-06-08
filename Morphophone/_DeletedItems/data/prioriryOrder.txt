@@ -1,0 +1,19 @@
+With loadmess
+0. target0
+0. tape lenght (buffer dimension and max delay)
+
+Priority changing offset value
+1. heads dimension (cold) [offset]
+2. reset delay's min & max
+3. delay times
+4. heads dimension (hot)  [offset_trend]
+
+-----------------------------------------
+
+Priority preset change
+1. rotation speed (cm/s)
+2. heads dimension (cold) [offset]
+3. reset delay's min & max 
+4. delay times
+
+
