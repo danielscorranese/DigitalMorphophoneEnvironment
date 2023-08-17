@@ -2,7 +2,7 @@
 	"name" : "Morphophone",
 	"version" : 1,
 	"creationdate" : 3731757509,
-	"modificationdate" : 3767786790,
+	"modificationdate" : 3775130162,
 	"viewrect" : [ 7.0, 84.0, 283.0, 449.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -146,12 +146,12 @@
 				"local" : 1
 			}
 ,
-			"filters_mod_change.maxpat" : 			{
+			"dial_freq_set.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"dial_freq_set.maxpat" : 			{
+			"filters_mod_change.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -256,7 +256,7 @@
 
 	}
 ,
-	"detailsvisible" : 1,
+	"detailsvisible" : 0,
 	"amxdtype" : 0,
 	"readonly" : 0,
 	"devpathtype" : 0,

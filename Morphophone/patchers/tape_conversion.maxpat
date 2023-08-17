@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 454.0, 324.0, 386.0, 272.0 ],
+		"rect" : [ 627.0, 288.0, 386.0, 272.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,15 +40,42 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"annotation" : "float: offset value",
+					"comment" : "float: offset value",
+					"hint" : "float: offset value",
+					"id" : "obj-11",
+					"index" : 3,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 375.60976505279541, 15.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 170.0, 180.139377117156982, 29.5, 22.0 ],
+					"text" : "!-"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"annotation" : "float: tape lenght (cm) 38",
 					"comment" : "float: tape lenght (cm) 38",
 					"hint" : "float: tape lenght (cm) 38",
 					"id" : "obj-19",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 293.0, 182.0, 30.0, 30.0 ]
+					"patching_rect" : [ 255.36933708190918, 230.083624839782715, 30.0, 30.0 ]
 				}
 
 			}
@@ -59,7 +86,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 293.0, 94.0, 33.0, 22.0 ],
+					"patching_rect" : [ 255.36933708190918, 94.0, 33.0, 22.0 ],
 					"text" : "* 38."
 				}
 
@@ -70,12 +97,12 @@
 					"comment" : "float: tape lenght (s) 38",
 					"hint" : "float: tape lenght (s) 38",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 293.0, 15.0, 30.0, 30.0 ]
+					"patching_rect" : [ 255.36933708190918, 15.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -121,11 +148,11 @@
 					"comment" : "float: tape lenght (ms) 38",
 					"hint" : "float: tape lenght (ms) 38",
 					"id" : "obj-6",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 170.0, 182.0, 30.0, 30.0 ]
+					"patching_rect" : [ 170.0, 230.083624839782715, 30.0, 30.0 ]
 				}
 
 			}
@@ -136,7 +163,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 170.0, 135.0, 47.0, 22.0 ],
+					"patching_rect" : [ 180.5, 135.0, 47.0, 22.0 ],
 					"text" : "* 1000."
 				}
 
@@ -159,11 +186,11 @@
 					"comment" : "float: tape lenght (s) 76",
 					"hint" : "float: tape lenght (s) 76",
 					"id" : "obj-17",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 115.0, 182.0, 30.0, 30.0 ]
+					"patching_rect" : [ 115.0, 230.083624839782715, 30.0, 30.0 ]
 				}
 
 			}
@@ -173,11 +200,11 @@
 					"comment" : "float: tape lenght (s) 38",
 					"hint" : "float: tape lenght (s) 38",
 					"id" : "obj-13",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 63.0, 182.0, 30.0, 30.0 ]
+					"patching_rect" : [ 63.0, 230.083624839782715, 30.0, 30.0 ]
 				}
 
 			}
@@ -187,11 +214,11 @@
 					"comment" : "float: tape lenght (s) 19",
 					"hint" : "float: tape lenght (s) 19",
 					"id" : "obj-12",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 182.0, 30.0, 30.0 ]
+					"patching_rect" : [ 15.0, 230.083624839782715, 30.0, 30.0 ]
 				}
 
 			}
@@ -226,7 +253,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 170.0, 94.0, 32.0, 22.0 ],
+					"patching_rect" : [ 180.5, 94.0, 32.0, 22.0 ],
 					"text" : "/ 38."
 				}
 
@@ -237,7 +264,7 @@
 					"comment" : "float: tape lenght (cm)",
 					"hint" : "float: tape lenght (cm)",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -288,6 +315,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"midpoints" : [ 385.10976505279541, 171.0, 179.5, 171.0 ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-14", 0 ]
 				}
@@ -309,6 +344,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-3", 0 ]
 				}
@@ -316,7 +358,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
+					"destination" : [ "obj-2", 1 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -350,8 +392,6 @@
 
 			}
  ],
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"accentcolor" : [ 0.329411764705882, 0.329411764705882, 0.329411764705882, 1.0 ],
 		"bgcolor" : [ 0.411764705882353, 0.411764705882353, 0.411764705882353, 1.0 ],
 		"editing_bgcolor" : [ 0.490196078431373, 0.490196078431373, 0.490196078431373, 1.0 ]

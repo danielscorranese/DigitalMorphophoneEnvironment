@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 507.0, 338.0, 663.0, 435.0 ],
+		"rect" : [ 255.0, 141.0, 663.0, 435.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -226,7 +226,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -302,7 +302,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1800,7 +1800,7 @@
 					"comment" : "list: control data in",
 					"hint" : "list: control data in",
 					"id" : "obj-50",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1849,8 +1849,8 @@
 						"headDim" : [ 0.0 ],
 						"mode" : [ 0 ],
 						"reset" : [ 1 ],
-						"speed_INIT" : [ 0 ],
-						"tapeNoise" : [ 0.3 ]
+						"speed_INIT" : [ 1 ],
+						"tapeNoise" : [ 0.0 ]
 					}
 ,
 					"text" : "autopattr @autorestore 0",
@@ -1863,10 +1863,10 @@
 					"id" : "obj-45",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 779.479081362485886, 459.291379630565643, 29.5, 22.0 ],
-					"text" : "t f f"
+					"numoutlets" : 3,
+					"outlettype" : [ "float", "float", "float" ],
+					"patching_rect" : [ 779.479081362485886, 459.291379630565643, 40.0, 22.0 ],
+					"text" : "t f f f"
 				}
 
 			}
@@ -1896,7 +1896,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2153,9 +2153,9 @@
 					"fontsize" : 10.0,
 					"id" : "obj-34",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 5,
-					"outlettype" : [ "", "", "", "float", "float" ],
+					"outlettype" : [ "", "", "", "int", "float" ],
 					"patching_rect" : [ 475.743933871388435, 112.858145743608475, 82.0, 20.0 ],
 					"text" : "tape_conversion"
 				}
@@ -2383,7 +2383,7 @@
 					"comment" : "list: control data out",
 					"hint" : "list: control data out",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2613,7 +2613,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2943,6 +2943,14 @@
 					"destination" : [ "obj-3", 0 ],
 					"midpoints" : [ 778.979081362485886, 688.089774489402771, 31.405009716749191, 688.089774489402771 ],
 					"source" : [ "obj-43", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.701960784313725, 0.701960784313725, 0.701960784313725, 0.501960784313725 ],
+					"destination" : [ "obj-34", 2 ],
+					"source" : [ "obj-45", 2 ]
 				}
 
 			}
@@ -3374,29 +3382,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "heads_conversion.maxpat",
-				"bootpath" : "~/Desktop/tesiDiploma_ScorraneseDaniel_MORPHOPHONE/private/devel/Morphophone/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sampratePlot.maxpat",
-				"bootpath" : "~/Desktop/tesiDiploma_ScorraneseDaniel_MORPHOPHONE/private/devel/Morphophone/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tape_conversion.maxpat",
-				"bootpath" : "~/Desktop/tesiDiploma_ScorraneseDaniel_MORPHOPHONE/private/devel/Morphophone/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.298039215686275, 0.298039215686275, 0.262745098039216, 1.0 ],
 		"stripecolor" : [ 0.243137254901961, 0.243137254901961, 0.243137254901961, 1.0 ],
 		"editing_bgcolor" : [ 0.329411764705882, 0.329411764705882, 0.329411764705882, 1.0 ]
