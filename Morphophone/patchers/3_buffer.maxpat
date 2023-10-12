@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 84.0, 1468.0, 753.0 ],
+		"rect" : [ 36.0, 85.0, 1466.0, 751.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -122,18 +122,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 1.380182150899145, 39.837500035762787, 31.0, 22.0 ],
 					"text" : "load"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-57",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 18.28151535987854, 65.326162040233612, 61.0, 22.0 ],
-					"text" : "tape_filter"
 				}
 
 			}
@@ -656,7 +644,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 109.78151535987854, 2.513655662536621, 59.0, 20.0 ],
+					"patching_rect" : [ 109.78151535987854, 4.763655662536621, 59.0, 20.0 ],
 					"text" : "feedback",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -1454,7 +1442,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 314.381515359877994, 5.513655662536621, 85.0, 20.0 ],
+					"patching_rect" : [ 314.381515359877994, 4.763655662536621, 85.0, 20.0 ],
 					"text" : "control data in",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -1467,7 +1455,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.28151535987854, 2.513655662536621, 54.0, 20.0 ],
+					"patching_rect" : [ 6.28151535987854, 4.763655662536621, 54.0, 20.0 ],
 					"text" : "signal in",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -1630,7 +1618,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-57", 0 ],
+					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -2221,7 +2209,6 @@
 					"color" : [ 0.701960784313725, 0.701960784313725, 0.701960784313725, 0.501960784313725 ],
 					"destination" : [ "obj-25", 0 ],
 					"midpoints" : [ 546.881515359877994, 114.745978772640228, 211.586609959602356, 114.745978772640228 ],
-					"order" : 0,
 					"source" : [ "obj-31", 3 ]
 				}
 
@@ -2232,16 +2219,6 @@
 					"destination" : [ "obj-43", 0 ],
 					"midpoints" : [ 489.381515359877994, 127.309940099716187, 326.315786361694336, 127.309940099716187, 326.315786361694336, 371.710522770881653, 27.78151535987854, 371.710522770881653 ],
 					"source" : [ "obj-31", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"color" : [ 0.701960784313725, 0.701960784313725, 0.701960784313725, 0.501960784313725 ],
-					"destination" : [ "obj-57", 1 ],
-					"midpoints" : [ 546.881515359877994, 112.499998927116394, 313.815786480903625, 112.499998927116394, 313.815786480903625, 3.289473652839661, 69.78151535987854, 3.289473652839661 ],
-					"order" : 1,
-					"source" : [ "obj-31", 3 ]
 				}
 
 			}
@@ -2458,13 +2435,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
-					"source" : [ "obj-57", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"color" : [ 0.701960784313725, 0.701960784313725, 0.701960784313725, 0.501960784313725 ],
 					"destination" : [ "obj-23", 0 ],
 					"source" : [ "obj-58", 0 ]
@@ -2676,14 +2646,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "feedback_settings.maxpat",
-				"bootpath" : "~/Desktop/tesiDiploma_ScorraneseDaniel_MORPHOPHONE/private/devel/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "flutter.maxpat",
-				"bootpath" : "~/Desktop/tesiDiploma_ScorraneseDaniel_MORPHOPHONE/private/devel/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -2694,63 +2664,56 @@
 			}
 , 			{
 				"name" : "playHeads_V5.maxpat",
-				"bootpath" : "~/Desktop/tesiDiploma_ScorraneseDaniel_MORPHOPHONE/private/devel/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "playhead.gendsp",
-				"bootpath" : "~/Desktop/tesiDiploma_ScorraneseDaniel_MORPHOPHONE/private/devel/Morphophone/code",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "speed_conv.maxpat",
-				"bootpath" : "~/Desktop/tesiDiploma_ScorraneseDaniel_MORPHOPHONE/private/devel/Morphophone/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tape_filter.maxpat",
-				"bootpath" : "~/Desktop/tesiDiploma_ScorraneseDaniel_MORPHOPHONE/private/devel/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tape_hiss.maxpat",
-				"bootpath" : "~/Desktop/tesiDiploma_ScorraneseDaniel_MORPHOPHONE/private/devel/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tape_saturator.gendsp",
-				"bootpath" : "~/Desktop/tesiDiploma_ScorraneseDaniel_MORPHOPHONE/private/devel/Morphophone/code",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tape_saturator.maxpat",
-				"bootpath" : "~/Desktop/tesiDiploma_ScorraneseDaniel_MORPHOPHONE/private/devel/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "waveform_sliders_data.maxpat",
-				"bootpath" : "~/Desktop/tesiDiploma_ScorraneseDaniel_MORPHOPHONE/private/devel/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "writeHead.maxpat",
-				"bootpath" : "~/Desktop/tesiDiploma_ScorraneseDaniel_MORPHOPHONE/private/devel/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

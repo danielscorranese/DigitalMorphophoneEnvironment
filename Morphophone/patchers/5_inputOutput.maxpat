@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 84.0, 1468.0, 753.0 ],
+		"rect" : [ 41.0, 84.0, 1468.0, 753.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,30 @@
 		"showontab" : 0,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-130",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 742.025823033466622, -8.662232965230942, 104.0, 22.0 ],
+					"text" : "loadmess target 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-134",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "multichannelsignal" ],
+					"patching_rect" : [ 626.0, 100.374950647354126, 130.0, 22.0 ],
+					"text" : "mc.poly~ tape_filter 10"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"cantchange" : 1,
 					"id" : "obj-133",
@@ -116,131 +140,6 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ -42.533134141788125, 494.732061445713043, 45.457446694374084, 22.0 ],
 					"text" : "*~"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"autosave" : 1,
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"id" : "obj-117",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 8,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
-					"patching_rect" : [ 1113.32075746048622, 157.774774760007858, 188.845174789428711, 119.71146759390831 ],
-					"save" : [ "#N", "vst~", "loaduniqueid", 0, "C74_VST3:/SPAN", ";" ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "vst~",
-							"parameter_shortname" : "vst~",
-							"parameter_type" : 3
-						}
-
-					}
-,
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 1,
-						"parameter_mappable" : 0
-					}
-,
-					"snapshot" : 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "snapshotlist",
-						"origin" : "vst~",
-						"type" : "list",
-						"subtype" : "Undefined",
-						"embed" : 1,
-						"snapshot" : 						{
-							"pluginname" : "SPAN.vst3info",
-							"plugindisplayname" : "SPAN",
-							"pluginsavedname" : "C74_VST3:/SPAN",
-							"pluginsaveduniqueid" : -1029450083,
-							"version" : 1,
-							"isbank" : 0,
-							"isbase64" : 1,
-							"sliderorder" : [  ],
-							"slidervisibility" : [ 1, 1, 1 ],
-							"blob" : "1530.VMjLgDeA...OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9DCL4HiKmETahkWUGYjKtXVZt3BZtLCMUcGVvLWXhMEQEkiZpwFUKUETJQzZn4FTqjTPDA2b54zREgDQPYWQwEEZREDUuMGbyIyUzHmMxYiVUE1SF8DYSgzZg4RRz4FbO4hcEgjKEY1UtP1PlIiKpMiPpMiRjQDdo4RaYMWai01cwjmbwHUbKkldxkCSsQyMikSVNkWc1jmKtHWd4H2XkU2Sp4jcgIFT0DGZyUlUxQmLmcGYh4zYFQybW4BN3DkQ0QjU3XjLxzFLIoFLqj2M2jVMtkDdRgkLnojZqTkTKojSXMFVBElXL0lQxsjTqbyZTslbWElVQMSU4D0MTUmajQkTpcER3XDTUQ1ZrgjTiQUUUAiQsUkagYTRwrzcKolLuICR04FRZ4RVncUTyHmKwzFZ3rhVq0zZEQTLno1Twk0bLwjP0s1JOg0Q0gVQ44FRZcma2E0Yj0jbjUmMkgiMjgSX0IlSsUkc0zDR0QiRZ0TYwMkavHVaUAiV4DSbuAiXxLEbvbyXhomV4PGdrsTa4Ika0TUdiUTPRE0Jg4xZBE1JtcVYAg2XKgkS2wjRWcWPTcjcTQyLzUSYAcEN04zTqjCZlA2QzbTTpQycIMzcCYGY0QDVwjmRJU1cTgGdEoUYSUkQxTULPcyX4gVNAYTdugESqfjZqrTXxLDdqo2MtM0aQclVWoWdWclXpg2Sm8Tc2rFUzUSa0AWYQU1YCYDM3Y2JKEjMKIFUDMWSF8FQ1HTS4g0MQI2PHQVPAgWVGcySAYSN3YVV0EGQlgVNtolUTY0QwcFRjgWP4DENQIlXqbTTqfjZxPyRYYFZRUEUwszRUQyQqPjLLU0JvPWaQ41XVshMi01SyX0XFQiLsIkPu8ldD4TPxLUSqsTL1gCZq0TZIc2bEUTaVcmSXQVVBwjT0b1c5U2PvozTV8lavUidAoGLkEFTw4TL1k1a3fTNmcmbpQkTOIlM4nVckkTXo0zZDUma0UmRTIGUhEiahcUbvLVaIE2aiUCbRYUVkASTVkTc0fjM0zDTwzTXlIWcPMjZ3HWdUY0cJQ0bpc2Ltkidp4RcCkmS3kyQlAmUmoUP1MkMzPVXAUSNkoEdy.EMwbDYAkyPoQmUqfCcEozTGYmUPQUQJkWbR8Dc1DSLxoEUv8DbC8TNyE0YjgSMgYURLkWLEY1RXkGc17DSv7jZjQjRB8VNV0zPpQibwb2XUIWc1fFZVIVLykzUZUmKVU2QNkUYzTVQqUiVPM1Pqk0LLcTSgUSLFoWL3oDN3PCZWEjdxImTNgTd2EkMPsDcxUWRWokYkAkcOITUikUYggDbxbCbEcDNwX1ZHgzY4PiZQkyPGgyRPMkUW4TQrcGVIkScs0TXyb2JvHTZjsDVNcmTtXiYkYjV34TXRQEa4ojMyDiQ5ECdJgzJxckZjkyZZIkUYoDSYIGRv4DTzzlMMw1TSQlcggTYSc1LEcEM00VYqgmbNEUVVEmUrAiVqk0X3gmbhoTdRASUUU1JuMSb5omT17lVDkkaIQGRw81cCEiYAIlV0zTTIQmRTIyc1wDSR8jPTciSYcWLFElb3TTa0bTYDomZMECdA8lVGgSRlsRXxDiYwDycMkDYQMzaSYkYxHWZgw1Y4IldpMGM5UVNMU1RuYCM4fSQFgSL40jV1AyLME1Tz8lcvojUwLCUqbWczjSUgAybM41bEsjXZUmbqHzbrUzRScVVNUmdNoWLVMmYNs1Lqk0QA0TVvHkSHk2cmkVXgAUYNYmThQjcn81JDojcUYlVGUjPHAyRWI2Y1fFZwTyMvAkQKMlZkomcF4TcRITbjcGdnkVLw.CdDk2SZECL3kyJy7DR1ESRWk0JOwTS1nVbLwDbQclRy41MhojUDEkTIcGU0cjRjQzMEwjVp8FZYYUcGICNTMSc2kDU2HVdIISNPMSLs8lZFUEQPgVcvoUQW0zLq.UaqXELgwyKIMzasA2atUlaz4COuX0TTMCTrU2Yo41TzEFck4C."
-						}
-,
-						"snapshotlist" : 						{
-							"current_snapshot" : 0,
-							"entries" : [ 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "SPAN",
-									"origin" : "SPAN.vst3info",
-									"type" : "VST3",
-									"subtype" : "MidiEffect",
-									"embed" : 0,
-									"snapshot" : 									{
-										"pluginname" : "SPAN.vst3info",
-										"plugindisplayname" : "SPAN",
-										"pluginsavedname" : "C74_VST3:/SPAN",
-										"pluginsaveduniqueid" : -1029450083,
-										"version" : 1,
-										"isbank" : 0,
-										"isbase64" : 1,
-										"sliderorder" : [  ],
-										"slidervisibility" : [ 1, 1, 1 ],
-										"blob" : "1530.VMjLgDeA...OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9DCL4HiKmETahkWUGYjKtXVZt3BZtLCMUcGVvLWXhMEQEkiZpwFUKUETJQzZn4FTqjTPDA2b54zREgDQPYWQwEEZREDUuMGbyIyUzHmMxYiVUE1SF8DYSgzZg4RRz4FbO4hcEgjKEY1UtP1PlIiKpMiPpMiRjQDdo4RaYMWai01cwjmbwHUbKkldxkCSsQyMikSVNkWc1jmKtHWd4H2XkU2Sp4jcgIFT0DGZyUlUxQmLmcGYh4zYFQybW4BN3DkQ0QjU3XjLxzFLIoFLqj2M2jVMtkDdRgkLnojZqTkTKojSXMFVBElXL0lQxsjTqbyZTslbWElVQMSU4D0MTUmajQkTpcER3XDTUQ1ZrgjTiQUUUAiQsUkagYTRwrzcKolLuICR04FRZ4RVncUTyHmKwzFZ3rhVq0zZEQTLno1Twk0bLwjP0s1JOg0Q0gVQ44FRZcma2E0Yj0jbjUmMkgiMjgSX0IlSsUkc0zDR0QiRZ0TYwMkavHVaUAiV4DSbuAiXxLEbvbyXhomV4PGdrsTa4Ika0TUdiUTPRE0Jg4xZBE1JtcVYAg2XKgkS2wjRWcWPTcjcTQyLzUSYAcEN04zTqjCZlA2QzbTTpQycIMzcCYGY0QDVwjmRJU1cTgGdEoUYSUkQxTULPcyX4gVNAYTdugESqfjZqrTXxLDdqo2MtM0aQclVWoWdWclXpg2Sm8Tc2rFUzUSa0AWYQU1YCYDM3Y2JKEjMKIFUDMWSF8FQ1HTS4g0MQI2PHQVPAgWVGcySAYSN3YVV0EGQlgVNtolUTY0QwcFRjgWP4DENQIlXqbTTqfjZxPyRYYFZRUEUwszRUQyQqPjLLU0JvPWaQ41XVshMi01SyX0XFQiLsIkPu8ldD4TPxLUSqsTL1gCZq0TZIc2bEUTaVcmSXQVVBwjT0b1c5U2PvozTV8lavUidAoGLkEFTw4TL1k1a3fTNmcmbpQkTOIlM4nVckkTXo0zZDUma0UmRTIGUhEiahcUbvLVaIE2aiUCbRYUVkASTVkTc0fjM0zDTwzTXlIWcPMjZ3HWdUY0cJQ0bpc2Ltkidp4RcCkmS3kyQlAmUmoUP1MkMzPVXAUSNkoEdy.EMwbDYAkyPoQmUqfCcEozTGYmUPQUQJkWbR8Dc1DSLxoEUv8DbC8TNyE0YjgSMgYURLkWLEY1RXkGc17DSv7jZjQjRB8VNV0zPpQibwb2XUIWc1fFZVIVLykzUZUmKVU2QNkUYzTVQqUiVPM1Pqk0LLcTSgUSLFoWL3oDN3PCZWEjdxImTNgTd2EkMPsDcxUWRWokYkAkcOITUikUYggDbxbCbEcDNwX1ZHgzY4PiZQkyPGgyRPMkUW4TQrcGVIkScs0TXyb2JvHTZjsDVNcmTtXiYkYjV34TXRQEa4ojMyDiQ5ECdJgzJxckZjkyZZIkUYoDSYIGRv4DTzzlMMw1TSQlcggTYSc1LEcEM00VYqgmbNEUVVEmUrAiVqk0X3gmbhoTdRASUUU1JuMSb5omT17lVDkkaIQGRw81cCEiYAIlV0zTTIQmRTIyc1wDSR8jPTciSYcWLFElb3TTa0bTYDomZMECdA8lVGgSRlsRXxDiYwDycMkDYQMzaSYkYxHWZgw1Y4IldpMGM5UVNMU1RuYCM4fSQFgSL40jV1AyLME1Tz8lcvojUwLCUqbWczjSUgAybM41bEsjXZUmbqHzbrUzRScVVNUmdNoWLVMmYNs1Lqk0QA0TVvHkSHk2cmkVXgAUYNYmThQjcn81JDojcUYlVGUjPHAyRWI2Y1fFZwTyMvAkQKMlZkomcF4TcRITbjcGdnkVLw.CdDk2SZECL3kyJy7DR1ESRWk0JOwTS1nVbLwDbQclRy41MhojUDEkTIcGU0cjRjQzMEwjVp8FZYYUcGICNTMSc2kDU2HVdIISNPMSLs8lZFUEQPgVcvoUQW0zLq.UaqXELgwyKIMzasA2atUlaz4COuX0TTMCTrU2Yo41TzEFck4C."
-									}
-,
-									"fileref" : 									{
-										"name" : "SPAN",
-										"filename" : "SPAN.maxsnap",
-										"filepath" : "~/Documents/Max 8/Snapshots",
-										"filepos" : -1,
-										"snapshotfileid" : "f274a58c122194d2fb0e85943fcac7a9"
-									}
-
-								}
-, 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "SPAN",
-									"origin" : "SPAN.vst3info",
-									"type" : "VST3",
-									"subtype" : "MidiEffect",
-									"embed" : 0,
-									"fileref" : 									{
-										"name" : "SPAN",
-										"filename" : "SPAN_20230419.maxsnap",
-										"filepath" : "~/Documents/Max 8/Snapshots",
-										"filepos" : -1,
-										"snapshotfileid" : "4bf6e3e0c890746115405694071daced"
-									}
-
-								}
- ]
-						}
-
-					}
-,
-					"text" : "vst~ C74_VST3:/SPAN",
-					"varname" : "vst~",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-48",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1113.32075746048622, 114.747747749090195, 58.0, 22.0 ],
-					"text" : "mc.sum~"
 				}
 
 			}
@@ -326,7 +225,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 738.0, 49.5, 70.0, 22.0 ],
+					"patching_rect" : [ 766.0, 46.166666746139526, 70.0, 22.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -366,7 +265,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 738.0, 75.000000000000014, 56.051646066933017, 20.0 ],
+					"patching_rect" : [ 766.0, 71.666666746139541, 56.051646066933017, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 614.043411791324615, 79.911168662293761, 56.051646066933017, 20.0 ],
 					"text" : "dry/wet",
@@ -381,7 +280,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 625.695189774036407, 196.168391853570938, 131.304810225963593, 22.0 ],
+					"patching_rect" : [ 625.695189774036407, 196.168391853570938, 159.304810225963593, 22.0 ],
 					"text" : "mc.combine~"
 				}
 
@@ -399,7 +298,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 738.0, 91.2082839012146, 47.0, 47.0 ],
+					"patching_rect" : [ 766.0, 87.874950647354126, 47.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 619.544269958645828, 93.40219423654878, 35.844684919055254, 35.844684919055254 ],
 					"size" : 1.0
@@ -413,7 +312,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "multichannelsignal" ],
-					"patching_rect" : [ 626.0, 159.0120629966259, 131.0, 22.0 ],
+					"patching_rect" : [ 626.0, 159.0120629966259, 159.0, 22.0 ],
 					"text" : "drywet"
 				}
 
@@ -1328,11 +1227,11 @@
 					"color" : [ 0.823529411764706, 0.780392156862745, 0.058823529411765, 1.0 ],
 					"id" : "obj-28",
 					"maxclass" : "newobj",
-					"numinlets" : 4,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 851.025339178016566, 440.454475700855255, 201.0, 22.0 ],
-					"text" : "route dspState drive_amp drive_byp"
+					"numinlets" : 5,
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
+					"patching_rect" : [ 866.165932249914931, 440.454475700855255, 235.0, 22.0 ],
+					"text" : "route dspState drive_amp drive_byp mode"
 				}
 
 			}
@@ -1729,7 +1628,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 825.525339178016566, 27.5, 90.0, 20.0 ],
+					"patching_rect" : [ 840.665932249914931, 27.5, 90.0, 20.0 ],
 					"text" : "control data in"
 				}
 
@@ -1745,7 +1644,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 851.025339178016566, 49.5, 30.0, 30.0 ]
+					"patching_rect" : [ 866.165932249914931, 49.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -1842,7 +1741,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 632.0, 27.5, 130.0, 20.0 ],
+					"patching_rect" : [ 612.028521716594696, 27.5, 130.546493709087372, 20.0 ],
 					"text" : "processed signal (mc)"
 				}
 
@@ -1871,7 +1770,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 682.0, 49.5, 30.0, 30.0 ]
+					"patching_rect" : [ 626.0, 49.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -2224,6 +2123,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-134", 1 ],
+					"source" : [ "obj-130", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-123", 3 ],
 					"source" : [ "obj-131", 0 ]
 				}
@@ -2233,6 +2139,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 1 ],
 					"source" : [ "obj-132", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 1 ],
+					"midpoints" : [ 635.5, 134.583330124616623, 705.5, 134.583330124616623 ],
+					"source" : [ "obj-134", 0 ]
 				}
 
 			}
@@ -2263,7 +2177,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-106", 0 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -2273,15 +2187,6 @@
 					"destination" : [ "obj-16", 0 ],
 					"midpoints" : [ 635.195189774036407, 599.05882340669632, 1133.874865126501845, 599.05882340669632 ],
 					"order" : 0,
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-48", 0 ],
-					"midpoints" : [ 635.195189774036407, 594.05882340669632, 1092.0, 594.05882340669632, 1092.0, 105.0, 1122.82075746048622, 105.0 ],
-					"order" : 1,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -2492,6 +2397,14 @@
 , 			{
 				"patchline" : 				{
 					"color" : [ 0.701960784313725, 0.701960784313725, 0.701960784313725, 0.501960784313725 ],
+					"destination" : [ "obj-134", 1 ],
+					"source" : [ "obj-28", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.701960784313725, 0.701960784313725, 0.701960784313725, 0.501960784313725 ],
 					"destination" : [ "obj-19", 0 ],
 					"source" : [ "obj-28", 2 ]
 				}
@@ -2589,22 +2502,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-133", 0 ],
 					"source" : [ "obj-47", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-117", 1 ],
-					"order" : 0,
-					"source" : [ "obj-48", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-117", 0 ],
-					"order" : 1,
-					"source" : [ "obj-48", 0 ]
 				}
 
 			}
@@ -2712,7 +2609,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-22", 1 ],
+					"destination" : [ "obj-134", 0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -2848,65 +2745,58 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-117" : [ "vst~", "vst~", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
 		"dependency_cache" : [ 			{
-				"name" : "SPAN.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../../../Documents/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "SPAN_20230419.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../../../Documents/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "drywet.maxpat",
-				"bootpath" : "~/Desktop/tesiDiploma_ScorraneseDaniel_MORPHOPHONE/private/devel/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "inputDebug.maxpat",
-				"bootpath" : "~/Desktop/tesiDiploma_ScorraneseDaniel_MORPHOPHONE/private/devel/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "playheadsRouting.maxpat",
-				"bootpath" : "~/Desktop/tesiDiploma_ScorraneseDaniel_MORPHOPHONE/private/devel/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tapeFilter_1.png",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tapeFilter_2.png",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tape_filter.maxpat",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tube_saturator.gendsp",
-				"bootpath" : "~/Desktop/tesiDiploma_ScorraneseDaniel_MORPHOPHONE/private/devel/Morphophone/code",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tube_saturator.maxpat",
-				"bootpath" : "~/Desktop/tesiDiploma_ScorraneseDaniel_MORPHOPHONE/private/devel/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
