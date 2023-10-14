@@ -2,7 +2,7 @@
 	"name" : "Morphophone",
 	"version" : 1,
 	"creationdate" : 3731757509,
-	"modificationdate" : 3779952470,
+	"modificationdate" : 3779971233,
 	"viewrect" : [ 7.0, 84.0, 283.0, 447.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -156,17 +156,17 @@
 				"local" : 1
 			}
 ,
+			"tape_filter.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"voiceMute.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"5_inputOutput.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"tape_filter.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -256,12 +256,12 @@
 
 	}
 ,
-	"detailsvisible" : 0,
+	"detailsvisible" : 1,
 	"amxdtype" : 0,
 	"readonly" : 0,
 	"devpathtype" : 0,
 	"devpath" : ".",
 	"sortmode" : 0,
-	"viewmode" : 0,
+	"viewmode" : 1,
 	"includepackages" : 0
 }
