@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 84.0, 1468.0, 753.0 ],
+		"rect" : [ 41.0, 85.0, 1466.0, 751.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -697,52 +697,52 @@
 						"ph10_c" : [ 1 ],
 						"ph10_f" : [ 1.0 ],
 						"ph10_g" : [ 0.0 ],
-						"ph10_q" : [ 0.1 ],
+						"ph10_q" : [ 0.0 ],
 						"ph10_t" : [ 0 ],
 						"ph1_c" : [ 1 ],
 						"ph1_f" : [ 1.0 ],
 						"ph1_g" : [ 0.0 ],
-						"ph1_q" : [ 0.1 ],
+						"ph1_q" : [ 0.0 ],
 						"ph1_t" : [ 0 ],
 						"ph2_c" : [ 1 ],
 						"ph2_f" : [ 1.0 ],
 						"ph2_g" : [ 0.0 ],
-						"ph2_q" : [ 0.1 ],
+						"ph2_q" : [ 0.0 ],
 						"ph2_t" : [ 0 ],
 						"ph3_c" : [ 1 ],
 						"ph3_f" : [ 1.0 ],
 						"ph3_g" : [ 0.0 ],
-						"ph3_q" : [ 0.1 ],
+						"ph3_q" : [ 0.0 ],
 						"ph3_t" : [ 0 ],
 						"ph4_c" : [ 1 ],
 						"ph4_f" : [ 1.0 ],
 						"ph4_g" : [ 0.0 ],
-						"ph4_q" : [ 0.1 ],
+						"ph4_q" : [ 0.0 ],
 						"ph4_t" : [ 0 ],
 						"ph5_c" : [ 1 ],
 						"ph5_f" : [ 1.0 ],
 						"ph5_g" : [ 0.0 ],
-						"ph5_q" : [ 0.1 ],
+						"ph5_q" : [ 0.0 ],
 						"ph5_t" : [ 0 ],
 						"ph6_c" : [ 1 ],
 						"ph6_f" : [ 1.0 ],
 						"ph6_g" : [ 0.0 ],
-						"ph6_q" : [ 0.1 ],
+						"ph6_q" : [ 0.0 ],
 						"ph6_t" : [ 0 ],
 						"ph7_c" : [ 1 ],
 						"ph7_f" : [ 1.0 ],
 						"ph7_g" : [ 0.0 ],
-						"ph7_q" : [ 0.1 ],
+						"ph7_q" : [ 0.0 ],
 						"ph7_t" : [ 0 ],
 						"ph8_c" : [ 1 ],
 						"ph8_f" : [ 1.0 ],
 						"ph8_g" : [ 0.0 ],
-						"ph8_q" : [ 0.1 ],
+						"ph8_q" : [ 0.0 ],
 						"ph8_t" : [ 0 ],
 						"ph9_c" : [ 1 ],
 						"ph9_f" : [ 1.0 ],
 						"ph9_g" : [ 0.0 ],
-						"ph9_q" : [ 0.1 ],
+						"ph9_q" : [ 0.0 ],
 						"ph9_t" : [ 0 ]
 					}
 ,
@@ -1235,7 +1235,7 @@
 					"id" : "obj-122",
 					"maxclass" : "flonum",
 					"maximum" : 10.0,
-					"minimum" : 0.1,
+					"minimum" : 0.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -1254,7 +1254,7 @@
 					"id" : "obj-125",
 					"maxclass" : "flonum",
 					"maximum" : 10.0,
-					"minimum" : 0.1,
+					"minimum" : 0.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -1273,7 +1273,7 @@
 					"id" : "obj-155",
 					"maxclass" : "flonum",
 					"maximum" : 10.0,
-					"minimum" : 0.1,
+					"minimum" : 0.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -1292,7 +1292,7 @@
 					"id" : "obj-160",
 					"maxclass" : "flonum",
 					"maximum" : 10.0,
-					"minimum" : 0.1,
+					"minimum" : 0.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -1311,7 +1311,7 @@
 					"id" : "obj-161",
 					"maxclass" : "flonum",
 					"maximum" : 10.0,
-					"minimum" : 0.1,
+					"minimum" : 0.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -1330,7 +1330,7 @@
 					"id" : "obj-163",
 					"maxclass" : "flonum",
 					"maximum" : 10.0,
-					"minimum" : 0.1,
+					"minimum" : 0.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -1349,7 +1349,7 @@
 					"id" : "obj-167",
 					"maxclass" : "flonum",
 					"maximum" : 10.0,
-					"minimum" : 0.1,
+					"minimum" : 0.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -1368,7 +1368,7 @@
 					"id" : "obj-168",
 					"maxclass" : "flonum",
 					"maximum" : 10.0,
-					"minimum" : 0.1,
+					"minimum" : 0.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -1387,7 +1387,7 @@
 					"id" : "obj-169",
 					"maxclass" : "flonum",
 					"maximum" : 10.0,
-					"minimum" : 0.1,
+					"minimum" : 0.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -1406,7 +1406,7 @@
 					"id" : "obj-181",
 					"maxclass" : "flonum",
 					"maximum" : 10.0,
-					"minimum" : 0.1,
+					"minimum" : 0.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -2685,7 +2685,6 @@
 					"floatoutput" : 1,
 					"id" : "obj-514",
 					"maxclass" : "dial",
-					"min" : 0.1,
 					"mode" : 5,
 					"needlecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"numinlets" : 1,
@@ -2695,7 +2694,7 @@
 					"patching_rect" : [ 1476.810173646539624, 650.133074402809143, 47.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 312.500012159347534, 567.603707134723663, 44.0, 44.0 ],
-					"size" : 9.9
+					"size" : 10.0
 				}
 
 			}
@@ -3344,7 +3343,6 @@
 					"floatoutput" : 1,
 					"id" : "obj-522",
 					"maxclass" : "dial",
-					"min" : 0.1,
 					"mode" : 5,
 					"needlecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"numinlets" : 1,
@@ -3354,7 +3352,7 @@
 					"patching_rect" : [ 1370.667634826899302, 650.133074402809143, 48.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 312.500012159347534, 507.270371645689011, 44.0, 44.0 ],
-					"size" : 9.9
+					"size" : 10.0
 				}
 
 			}
@@ -3468,7 +3466,6 @@
 					"floatoutput" : 1,
 					"id" : "obj-532",
 					"maxclass" : "dial",
-					"min" : 0.1,
 					"mode" : 5,
 					"needlecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"numinlets" : 1,
@@ -3478,7 +3475,7 @@
 					"patching_rect" : [ 1270.191236911569376, 650.133074402809143, 48.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 312.500012159347534, 447.182150274515152, 44.0, 44.0 ],
-					"size" : 9.9
+					"size" : 10.0
 				}
 
 			}
@@ -3562,7 +3559,6 @@
 					"floatoutput" : 1,
 					"id" : "obj-540",
 					"maxclass" : "dial",
-					"min" : 0.1,
 					"mode" : 5,
 					"needlecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"numinlets" : 1,
@@ -3572,7 +3568,7 @@
 					"patching_rect" : [ 1168.965627639773174, 650.133074402809143, 48.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 312.500012159347534, 386.603719383478165, 44.0, 44.0 ],
-					"size" : 9.9
+					"size" : 10.0
 				}
 
 			}
@@ -3686,7 +3682,6 @@
 					"floatoutput" : 1,
 					"id" : "obj-496",
 					"maxclass" : "dial",
-					"min" : 0.1,
 					"mode" : 5,
 					"needlecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"numinlets" : 1,
@@ -3696,7 +3691,7 @@
 					"patching_rect" : [ 1066.120592605129787, 649.133074402809143, 46.0, 46.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 312.500012159347534, 326.603718876838684, 44.0, 44.0 ],
-					"size" : 9.9
+					"size" : 10.0
 				}
 
 			}
@@ -3780,7 +3775,6 @@
 					"floatoutput" : 1,
 					"id" : "obj-504",
 					"maxclass" : "dial",
-					"min" : 0.1,
 					"mode" : 5,
 					"needlecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"numinlets" : 1,
@@ -3790,7 +3784,7 @@
 					"patching_rect" : [ 963.448197344777327, 649.133074402809143, 48.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 312.500012159347534, 266.437052309513092, 44.0, 44.0 ],
-					"size" : 9.9
+					"size" : 10.0
 				}
 
 			}
@@ -3904,7 +3898,6 @@
 					"floatoutput" : 1,
 					"id" : "obj-478",
 					"maxclass" : "dial",
-					"min" : 0.1,
 					"mode" : 5,
 					"needlecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"numinlets" : 1,
@@ -3914,7 +3907,7 @@
 					"patching_rect" : [ 860.775802084424868, 649.133074402809143, 49.0, 49.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 312.500012159347534, 206.937052935361862, 44.0, 44.0 ],
-					"size" : 9.9
+					"size" : 10.0
 				}
 
 			}
@@ -3998,7 +3991,6 @@
 					"floatoutput" : 1,
 					"id" : "obj-486",
 					"maxclass" : "dial",
-					"min" : 0.1,
 					"mode" : 5,
 					"needlecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"numinlets" : 1,
@@ -4008,7 +4000,7 @@
 					"patching_rect" : [ 757.860994853831244, 649.133074402809143, 48.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 312.500012159347534, 146.682147353887672, 44.0, 44.0 ],
-					"size" : 9.9
+					"size" : 10.0
 				}
 
 			}
@@ -4122,7 +4114,6 @@
 					"floatoutput" : 1,
 					"id" : "obj-8",
 					"maxclass" : "dial",
-					"min" : 0.1,
 					"mode" : 5,
 					"needlecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"numinlets" : 1,
@@ -4132,7 +4123,7 @@
 					"patching_rect" : [ 656.267048978966159, 649.133074402809143, 47.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 312.500012159347534, 85.937048047780991, 44.0, 44.0 ],
-					"size" : 9.9
+					"size" : 10.0
 				}
 
 			}
@@ -4236,7 +4227,6 @@
 					"floatoutput" : 1,
 					"id" : "obj-28",
 					"maxclass" : "dial",
-					"min" : 0.1,
 					"mode" : 5,
 					"needlecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"numinlets" : 1,
@@ -4246,7 +4236,7 @@
 					"patching_rect" : [ 552.758616303367489, 649.133074402809143, 47.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 312.500012159347534, 25.810016274452209, 44.0, 44.0 ],
-					"size" : 9.9
+					"size" : 10.0
 				}
 
 			}
@@ -7206,84 +7196,84 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "amp_section_V2.maxpat",
-				"bootpath" : "~/Desktop/tesiDiploma_ScorraneseDaniel_MORPHOPHONE/private/devel/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bandPass_section.maxpat",
-				"bootpath" : "~/Desktop/tesiDiploma_ScorraneseDaniel_MORPHOPHONE/private/devel/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dial_freq_set.maxpat",
-				"bootpath" : "~/Desktop/tesiDiploma_ScorraneseDaniel_MORPHOPHONE/private/devel/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "filterFrequencies.txt",
-				"bootpath" : "~/Desktop/tesiDiploma_ScorraneseDaniel_MORPHOPHONE/private/devel/Morphophone/data",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "filters_mod_change.maxpat",
-				"bootpath" : "~/Desktop/tesiDiploma_ScorraneseDaniel_MORPHOPHONE/private/devel/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "phPlotConf.maxpat",
-				"bootpath" : "~/Desktop/tesiDiploma_ScorraneseDaniel_MORPHOPHONE/private/devel/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tapeFilter_1.png",
-				"bootpath" : "~/Desktop/tesiDiploma_ScorraneseDaniel_MORPHOPHONE/private/devel/tapeFilter",
-				"patcherrelativepath" : "../../tapeFilter",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/media",
+				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tapeFilter_2.png",
-				"bootpath" : "~/Desktop/tesiDiploma_ScorraneseDaniel_MORPHOPHONE/private/devel/tapeFilter",
-				"patcherrelativepath" : "../../tapeFilter",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/media",
+				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tape_filter.maxpat",
-				"bootpath" : "~/Desktop/tesiDiploma_ScorraneseDaniel_MORPHOPHONE/private/devel/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tube_saturator.gendsp",
-				"bootpath" : "~/Desktop/tesiDiploma_ScorraneseDaniel_MORPHOPHONE/private/devel/Morphophone/code",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tube_saturator.maxpat",
-				"bootpath" : "~/Desktop/tesiDiploma_ScorraneseDaniel_MORPHOPHONE/private/devel/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "voiceMute.maxpat",
-				"bootpath" : "~/Desktop/tesiDiploma_ScorraneseDaniel_MORPHOPHONE/private/devel/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
