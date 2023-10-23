@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -226,7 +226,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -302,7 +302,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -874,7 +874,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 576.132695630192757, 136.358145743608475, 123.11111119389534, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 506.66790609061718, 45.049863040447235, 120.575693547725677, 19.0 ],
+					"presentation_rect" : [ 512.042665034532547, 45.049863040447235, 120.575693547725677, 19.0 ],
 					"text" : "(for info see \"About...\")"
 				}
 
@@ -895,7 +895,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-99",
-					"items" : [ "Modern", ",", "Original" ],
+					"items" : [ "Extended", ",", "Philological" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -903,7 +903,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 615.132695630192757, 112.858145743608475, 71.704748198390007, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 552.58620573580265, 21.549863040447235, 71.704748198390007, 22.0 ],
+					"presentation_rect" : [ 547.317266941070557, 21.549863040447235, 85.301091641187668, 22.0 ],
 					"varname" : "mode"
 				}
 
@@ -919,7 +919,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 569.214395985007286, 113.358145743608475, 45.31579601764679, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 506.66790609061718, 22.049863040447235, 45.31579601764679, 21.0 ],
+					"presentation_rect" : [ 506.079670771956444, 21.785157084465027, 45.31579601764679, 21.0 ],
 					"text" : "Mode"
 				}
 
@@ -1800,7 +1800,7 @@
 					"comment" : "list: control data in",
 					"hint" : "list: control data in",
 					"id" : "obj-50",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1847,10 +1847,10 @@
 						"drive_amp" : [ 4.9 ],
 						"drive_byp" : [ 0 ],
 						"headDim" : [ 0.0 ],
-						"mode" : [ 0 ],
+						"mode" : [ 1 ],
 						"reset" : [ 1 ],
-						"speed_INIT" : [ 1 ],
-						"tapeNoise" : [ 0.0 ]
+						"speed_INIT" : [ 0 ],
+						"tapeNoise" : [ 30.0 ]
 					}
 ,
 					"text" : "autopattr @autorestore 0",
@@ -1896,7 +1896,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2155,7 +2155,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 5,
-					"outlettype" : [ "", "", "", "int", "float" ],
+					"outlettype" : [ "", "", "", "", "float" ],
 					"patching_rect" : [ 475.743933871388435, 112.858145743608475, 82.0, 20.0 ],
 					"text" : "tape_conversion"
 				}
@@ -2383,7 +2383,7 @@
 					"comment" : "list: control data out",
 					"hint" : "list: control data out",
 					"id" : "obj-3",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2613,7 +2613,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3382,6 +3382,29 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "heads_conversion.maxpat",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sampratePlot.maxpat",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tape_conversion.maxpat",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.298039215686275, 0.298039215686275, 0.262745098039216, 1.0 ],
 		"stripecolor" : [ 0.243137254901961, 0.243137254901961, 0.243137254901961, 1.0 ],
 		"editing_bgcolor" : [ 0.329411764705882, 0.329411764705882, 0.329411764705882, 1.0 ]
