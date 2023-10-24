@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -144,13 +144,14 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
+					"fontname" : "Bahnschrift",
 					"id" : "obj-1",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 558.5, 127.0, 46.0, 20.0 ],
+					"patching_rect" : [ 558.5, 127.0, 45.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 7.0, 45.0, 20.0 ],
+					"presentation_rect" : [ 3.0, 7.0, 44.0, 21.0 ],
 					"text" : "Driver"
 				}
 
@@ -169,6 +170,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Bahnschrift",
 					"id" : "obj-11",
 					"items" : [ "None", ",", "ad_asio", "ASIO Fireface USB", ",", "ad_asio", "Elektron Analog Four", ",", "ad_asio", "Elektron Analog Four MKII", ",", "ad_asio", "Elektron Digitakt", ",", "ad_asio", "Focusrite Thunderbolt ASIO", ",", "ad_asio", "Focusrite USB ASIO", ",", "ad_asio", "Generic Low Latency ASIO Driver", ",", "ad_asio", "JackRouter", ",", "ad_asio", "Realtek ASIO", ",", "ad_asio", "ReaRoute ASIO (x64)", ",", "ad_asio", "SH-01", ",", "ad_directsound", "", ",", "ad_mme", "", ",", "NonRealTime", ",", "ad_portaudio", "MME", ",", "ad_portaudio", "Windows DirectSound", ",", "ad_portaudio", "Windows WASAPI", ",", "ad_portaudio", "Windows WDM-KS", ",", "ad_rewire" ],
 					"maxclass" : "umenu",
@@ -176,9 +178,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 542.0, 192.0, 179.0, 22.0 ],
+					"patching_rect" : [ 542.0, 192.0, 179.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 87.0, 7.0, 219.0, 22.0 ]
+					"presentation_rect" : [ 87.0, 7.0, 219.0, 23.0 ]
 				}
 
 			}
@@ -196,28 +198,30 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Bahnschrift",
 					"id" : "obj-45",
-					"items" : [ 11025, ",", 12000, ",", 16000, ",", 22050, ",", 24000, ",", 32000, ",", 44100, ",", 48000, ",", 88200, ",", 96000, ",", 192000 ],
+					"items" : 48000,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 234.0, 193.0, 78.0, 22.0 ],
+					"patching_rect" : [ 234.0, 193.0, 78.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 87.0, 38.0, 78.0, 22.0 ]
+					"presentation_rect" : [ 87.0, 38.0, 78.0, 23.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Bahnschrift",
 					"id" : "obj-20",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 826.0, 193.0, 25.0, 20.0 ],
+					"patching_rect" : [ 826.0, 193.0, 24.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 296.0, 82.5, 21.0, 20.0 ],
+					"presentation_rect" : [ 296.0, 82.5, 20.0, 21.0 ],
 					"text" : "%"
 				}
 
@@ -225,13 +229,14 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
+					"fontname" : "Bahnschrift",
 					"id" : "obj-19",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 786.5, 127.0, 74.0, 20.0 ],
+					"patching_rect" : [ 786.5, 127.0, 69.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 236.0, 60.5, 74.0, 20.0 ],
+					"presentation_rect" : [ 236.0, 60.5, 69.0, 21.0 ],
 					"text" : "CPU usage"
 				}
 
@@ -239,6 +244,7 @@
 , 			{
 				"box" : 				{
 					"cantchange" : 1,
+					"fontname" : "Bahnschrift",
 					"format" : 6,
 					"id" : "obj-18",
 					"maxclass" : "flonum",
@@ -246,9 +252,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 774.0, 192.0, 50.0, 22.0 ],
+					"patching_rect" : [ 774.0, 192.0, 49.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 244.0, 81.5, 50.0, 22.0 ]
+					"presentation_rect" : [ 244.0, 81.5, 49.0, 23.0 ]
 				}
 
 			}
@@ -266,13 +272,14 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Bahnschrift",
 					"id" : "obj-12",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 433.0, 193.0, 25.0, 20.0 ],
+					"patching_rect" : [ 433.0, 193.0, 25.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 167.0, 39.0, 25.0, 20.0 ],
+					"presentation_rect" : [ 167.0, 39.0, 25.0, 21.0 ],
 					"text" : "Hz"
 				}
 
@@ -292,13 +299,14 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
+					"fontname" : "Bahnschrift",
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 250.5, 127.0, 81.0, 20.0 ],
+					"patching_rect" : [ 250.5, 127.0, 77.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 39.0, 81.0, 20.0 ],
+					"presentation_rect" : [ 3.0, 39.0, 77.0, 21.0 ],
 					"text" : "Sample Rate"
 				}
 
@@ -317,13 +325,14 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Bahnschrift",
 					"id" : "obj-4",
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 381.0, 192.0, 50.0, 22.0 ]
+					"patching_rect" : [ 381.0, 192.0, 50.0, 23.0 ]
 				}
 
 			}

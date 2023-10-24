@@ -373,9 +373,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 149.535416647791862, 401.442433089017868, 460.0, 31.0 ],
+					"patching_rect" : [ 164.847618907690048, 396.530677437782288, 460.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 149.535416647791862, 401.442433089017868, 460.0, 31.0 ],
+					"presentation_rect" : [ 164.847618907690048, 396.530677437782288, 460.0, 31.0 ],
 					"text" : "Reel settings and playheads position (delay time)"
 				}
 
@@ -877,147 +877,147 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "1_globalSettings.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2_delayTimes.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "3_buffer.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "4_amp&filters.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "5_inputOutput.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "about.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "amp_section_V2.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bandPass_section.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "controlsData.json",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/data",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "delays_19.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "delays_38.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "delays_76.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dial_freq_set.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "drywet.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dsp_STATE.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "feedback_settings.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "filterFrequencies.txt",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/data",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "filters_mod_change.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "flutter.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "heads_conversion.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "inputDebug.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1028,147 +1028,147 @@
 			}
 , 			{
 				"name" : "offsetTrend_check.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "offsetUpdateControl.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "phPlotConf.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "playHeads_V5.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "playhead.gendsp",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/code",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "playheadsRouting.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sampratePlot.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "secondCheck.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "speed_conv.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tapeFilter_1.png",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/media",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tapeFilter_2.png",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/media",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tape_conversion.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tape_filter.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tape_hiss.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tape_saturator.gendsp",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/code",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tape_saturator.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tube_saturator.gendsp",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/code",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tube_saturator.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "voiceMute.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "waveform_sliders_data.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "writeHead.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
+				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
