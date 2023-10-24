@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 227.0, 95.0, 1168.0, 723.0 ],
+		"rect" : [ 167.0, 117.0, 1166.0, 722.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,38 @@
 		"subpatcher_template" : "userTemplate_3",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontface" : 3,
+					"fontname" : "Bahnschrift",
+					"fontsize" : 10.0,
+					"id" : "obj-25",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 366.949999988079071, 46.406559735536575, 96.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 366.949999988079071, 46.406559735536575, 96.0, 19.0 ],
+					"text" : "Daniel Scorranese"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 3,
+					"fontname" : "Bahnschrift",
+					"fontsize" : 18.0,
+					"id" : "obj-18",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 435.698860943317413, 24.0, 278.0, 28.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 435.698860943317413, 24.0, 278.0, 28.0 ],
+					"text" : "Digital Morphophone Enviroment"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "newobj",
@@ -93,7 +125,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 709.4708331823349, 55.0, 39.0, 22.0 ],
+					"patching_rect" : [ 712.486587226390839, 55.5, 39.0, 22.0 ],
 					"text" : "about"
 				}
 
@@ -233,10 +265,10 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 269, 178, 654, 541 ],
+						"client_rect" : [ 26, 55, 497, 739 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 25, 87, 901, 378 ]
 					}
 ,
 					"text" : "pattrstorage controlsData",
@@ -269,15 +301,16 @@
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.76374859708193,
 					"bgfillcolor_type" : "gradient",
+					"fontname" : "Bahnschrift",
 					"gradient" : 1,
 					"id" : "obj-10",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 671.4708331823349, 150.0, 88.0, 22.0 ],
+					"patching_rect" : [ 671.4708331823349, 150.0, 89.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 671.4708331823349, 150.0, 88.0, 22.0 ],
+					"presentation_rect" : [ 671.4708331823349, 150.0, 89.0, 23.0 ],
 					"text" : "Global settings",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -334,15 +367,15 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
-					"fontname" : "Arial",
+					"fontname" : "Bahnschrift",
 					"fontsize" : 20.0,
 					"id" : "obj-41",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 149.535416647791862, 401.442433089017868, 487.0, 29.0 ],
+					"patching_rect" : [ 149.535416647791862, 401.442433089017868, 460.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 149.535416647791862, 401.442433089017868, 487.0, 29.0 ],
+					"presentation_rect" : [ 149.535416647791862, 401.442433089017868, 460.0, 31.0 ],
 					"text" : "Reel settings and playheads position (delay time)"
 				}
 
@@ -369,14 +402,15 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
+					"fontname" : "Bahnschrift",
 					"fontsize" : 20.0,
 					"id" : "obj-39",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 235.949999988079071, 185.357019543647766, 311.0, 29.0 ],
+					"patching_rect" : [ 235.949999988079071, 185.357019543647766, 295.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 235.949999988079071, 185.357019543647766, 311.0, 29.0 ],
+					"presentation_rect" : [ 235.949999988079071, 185.357019543647766, 295.0, 31.0 ],
 					"text" : "Input / output signal monitoring"
 				}
 
@@ -384,15 +418,15 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
-					"fontname" : "Arial",
+					"fontname" : "Bahnschrift",
 					"fontsize" : 20.0,
 					"id" : "obj-38",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 825.28723958786577, 19.5, 295.0, 29.0 ],
+					"patching_rect" : [ 825.28723958786577, 19.5, 282.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 825.28723958786577, 19.5, 295.0, 29.0 ],
+					"presentation_rect" : [ 825.28723958786577, 19.5, 282.0, 31.0 ],
 					"text" : "Amplitude and filters controls"
 				}
 
@@ -424,14 +458,15 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
+					"fontname" : "Bahnschrift",
 					"fontsize" : 16.0,
 					"id" : "obj-32",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 366.949999988079071, 150.0, 62.0, 25.0 ],
+					"patching_rect" : [ 366.949999988079071, 150.0, 61.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 366.949999988079071, 150.0, 62.0, 25.0 ],
+					"presentation_rect" : [ 366.949999988079071, 150.0, 61.0, 26.0 ],
 					"text" : "Preset"
 				}
 
@@ -453,39 +488,42 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Bahnschrift",
 					"id" : "obj-26",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 366.949999988079071, 104.5, 308.463419914245605, 20.0 ],
+					"patching_rect" : [ 366.949999988079071, 104.5, 318.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 366.949999988079071, 104.5, 308.463419914245605, 20.0 ],
+					"presentation_rect" : [ 366.949999988079071, 104.5, 318.0, 21.0 ],
 					"text" : "3. Start motor and try different configurations of settings."
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Bahnschrift",
 					"id" : "obj-24",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 366.949999988079071, 82.5, 362.219517230987549, 20.0 ],
+					"patching_rect" : [ 366.949999988079071, 82.5, 372.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 366.949999988079071, 82.5, 362.219517230987549, 20.0 ],
+					"presentation_rect" : [ 366.949999988079071, 82.5, 372.0, 21.0 ],
 					"text" : "2. Select input source and hit record to write signal into the buffer."
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Bahnschrift",
 					"id" : "obj-22",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 366.949999988079071, 60.5, 395.536587238311768, 20.0 ],
+					"patching_rect" : [ 366.949999988079071, 60.5, 396.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 366.949999988079071, 60.5, 395.536587238311768, 20.0 ],
+					"presentation_rect" : [ 366.949999988079071, 60.5, 396.0, 21.0 ],
 					"text" : "1. Select audio driver, sr frequency and upsampling value*. Turn on DSP."
 				}
 
@@ -517,15 +555,15 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
-					"fontname" : "Arial",
+					"fontname" : "Bahnschrift",
 					"fontsize" : 20.0,
 					"id" : "obj-14",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 104.500000029802322, 19.5, 153.0, 29.0 ],
+					"patching_rect" : [ 104.500000029802322, 19.5, 146.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 104.500000029802322, 19.5, 153.0, 29.0 ],
+					"presentation_rect" : [ 104.500000029802322, 19.5, 146.0, 31.0 ],
 					"text" : "DSP Settings"
 				}
 
@@ -564,6 +602,7 @@
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.76374859708193,
 					"bgfillcolor_type" : "gradient",
+					"fontname" : "Bahnschrift",
 					"gradient" : 1,
 					"hint" : "Open documentation patch",
 					"id" : "obj-7",
@@ -571,9 +610,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 709.4708331823349, 26.5, 50.0, 22.0 ],
+					"patching_rect" : [ 712.486587226390839, 27.0, 48.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 709.4708331823349, 26.5, 50.0, 22.0 ],
+					"presentation_rect" : [ 712.486587226390839, 27.0, 48.0, 23.0 ],
 					"text" : "About...",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -581,30 +620,31 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Bahnschrift",
 					"id" : "obj-5",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 366.949999988079071, 26.5, 49.0, 20.0 ],
+					"patching_rect" : [ 289.700000002980232, 24.0, 49.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 366.949999988079071, 26.5, 49.0, 20.0 ],
+					"presentation_rect" : [ 289.700000002980232, 24.0, 49.0, 21.0 ],
 					"text" : "Ver 1.0"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial Italic",
+					"fontface" : 1,
+					"fontname" : "Bahnschrift",
 					"fontsize" : 30.0,
 					"id" : "obj-3",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 447.399999976158142, 19.5, 211.0, 41.0 ],
+					"patching_rect" : [ 366.949999988079071, 15.0, 70.0, 43.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 447.399999976158142, 19.5, 211.0, 41.0 ],
-					"text" : "Morphophone"
+					"presentation_rect" : [ 366.949999988079071, 15.0, 70.0, 43.0 ],
+					"text" : "DME"
 				}
 
 			}
