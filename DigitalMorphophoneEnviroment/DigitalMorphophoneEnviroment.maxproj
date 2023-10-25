@@ -1,9 +1,9 @@
 {
-	"name" : "Morphophone",
+	"name" : "DigitalMorphophoneEnviroment",
 	"version" : 1,
 	"creationdate" : 3731757509,
-	"modificationdate" : 3779971233,
-	"viewrect" : [ 7.0, 84.0, 283.0, 447.0 ],
+	"modificationdate" : 3781102250,
+	"viewrect" : [ 11.0, 74.0, 283.0, 447.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -77,11 +77,6 @@
 			}
 ,
 			"3_buffer.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"feedback_settings.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -172,6 +167,11 @@
 			}
 ,
 			"drywet.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"feedback_settings.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
