@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 221.0, 95.0, 1166.0, 720.0 ],
+		"rect" : [ 221.0, 94.0, 1166.0, 720.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -79,9 +79,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1035.970968998037279, 18.636622369289398, 79.0, 28.0 ],
+					"patching_rect" : [ 1035.970968998037279, 15.088235378265381, 79.0, 28.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1035.970968998037279, 18.636622369289398, 79.0, 28.0 ],
+					"presentation_rect" : [ 1035.970968998037279, 15.088235378265381, 79.0, 28.0 ],
 					"text" : "(lecture)"
 				}
 
@@ -129,7 +129,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 436.021441578865051, 19.588235378265381, 278.0, 28.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 436.021441578865051, 19.588235378265381, 278.0, 28.0 ],
+					"presentation_rect" : [ 436.021441578865051, 17.504902094602585, 278.0, 28.0 ],
 					"text" : "Digital Morphophone Enviroment"
 				}
 
@@ -453,9 +453,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 847.970968998037279, 18.636622369289398, 183.0, 28.0 ],
+					"patching_rect" : [ 847.970968998037279, 15.088235378265381, 183.0, 28.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 847.970968998037279, 18.636622369289398, 183.0, 28.0 ],
+					"presentation_rect" : [ 847.970968998037279, 15.088235378265381, 183.0, 28.0 ],
 					"text" : "Amplifiers and filters"
 				}
 
