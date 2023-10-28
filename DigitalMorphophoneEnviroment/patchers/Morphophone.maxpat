@@ -635,6 +635,7 @@
 					"gradient" : 1,
 					"hint" : "Open documentation patch",
 					"id" : "obj-7",
+					"ignoreclick" : 1,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,

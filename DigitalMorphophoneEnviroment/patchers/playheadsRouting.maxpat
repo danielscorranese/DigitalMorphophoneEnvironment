@@ -41,13 +41,13 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-7",
-					"linecount" : 4,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 451.5, 259.876557409763336, 322.0, 64.0 ],
-					"text" : "0 0 1, 0 1 0, 1 0 1, 1 1 1, 2 0 1, 2 1 1, 3 0 1, 3 1 1, 4 0 1, 4 1 1, 5 0 1, 5 1 1, 6 0 1, 6 1 1, 7 0 1, 7 1 1, 8 0 1, 8 1 1, 9 0 1, 9 1 1, 0 10 1, 1 10 1, 2 10 1, 3 10 1, 4 10 1, 5 10 1, 6 10 1, 7 10 1, 8 10 1, 9 10 1"
+					"patching_rect" : [ 451.5, 259.876557409763336, 367.518519878387451, 50.0 ],
+					"text" : "0 0 1, 0 1 1, 1 0 1, 1 1 1, 2 0 1, 2 1 1, 3 0 1, 3 1 1, 4 0 1, 4 1 1, 5 0 1, 5 1 1, 6 0 1, 6 1 1, 7 0 1, 7 1 1, 8 0 1, 8 1 1, 9 0 1, 9 1 1, 0 10 1, 1 10 1, 2 10 1, 3 10 1, 4 10 1, 5 10 1, 6 10 1, 7 10 1, 8 10 1, 9 10 1"
 				}
 
 			}
@@ -67,7 +67,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-15",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -93,11 +93,11 @@
 					"comment" : "mc.signal: signals to be routed",
 					"hint" : "mc.signal: signals to be routed",
 					"id" : "obj-5",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 13.0, 13.195923715829849, 30.0, 30.0 ]
 				}
 
@@ -121,6 +121,11 @@
 					"connections" : [ 						{
 							"in" : 0,
 							"out" : 0,
+							"gain" : 1.0
+						}
+, 						{
+							"in" : 0,
+							"out" : 1,
 							"gain" : 1.0
 						}
 , 						{
@@ -392,7 +397,7 @@
 					"comment" : "mc.signal: routed signal",
 					"hint" : "mc.signal: routed signal",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -455,7 +460,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-6",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -604,6 +609,8 @@
 
 			}
  ],
+		"dependency_cache" : [  ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.298039215686275, 0.298039215686275, 0.262745098039216, 1.0 ],
 		"stripecolor" : [ 0.243137254901961, 0.243137254901961, 0.243137254901961, 1.0 ],
 		"editing_bgcolor" : [ 0.329411764705882, 0.329411764705882, 0.329411764705882, 1.0 ]
