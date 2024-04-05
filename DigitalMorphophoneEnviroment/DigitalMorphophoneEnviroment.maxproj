@@ -2,7 +2,7 @@
 	"name" : "DigitalMorphophoneEnviroment",
 	"version" : 1,
 	"creationdate" : 3731757509,
-	"modificationdate" : 3781102250,
+	"modificationdate" : 3795156855,
 	"viewrect" : [ 11.0, 74.0, 283.0, 447.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -16,7 +16,7 @@
 				"toplevel" : 1
 			}
 ,
-			"Morphophone.maxpat" : 			{
+			"DME.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

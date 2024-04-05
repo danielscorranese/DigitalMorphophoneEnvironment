@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 3,
+			"minor" : 6,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 219.0, 94.0, 1170.0, 726.0 ],
+		"rect" : [ 381.0, 204.0, 1170.0, 726.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -69,8 +69,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 440.0, 98.0, 153.0, 22.0 ],
-					"text" : "load morphophone.maxpat"
+					"patching_rect" : [ 440.0, 98.0, 104.0, 22.0 ],
+					"text" : "load DME.maxpat"
 				}
 
 			}
