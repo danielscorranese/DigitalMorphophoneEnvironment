@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -254,7 +254,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 810.017931073904037, 112.616757035255432, 103.651161730289459, 23.0 ],
+					"patching_rect" : [ 810.017931073904037, 112.616757035255432, 103.651161730289459, 22.0 ],
 					"text" : "Feedback level",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -292,7 +292,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 636.016248098023198, 49.5, 95.431435424074607, 87.0 ],
+					"patching_rect" : [ 636.016248098023198, 49.5, 95.431435424074607, 85.0 ],
 					"text" : "Sum of the return (post amplification and filtering) of the signal from all active read heads (including tape noise)"
 				}
 
@@ -1112,7 +1112,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 966.843333538459433, -21.662232965230942, 140.000000000000114, 48.0 ],
+					"patching_rect" : [ 966.843333538459433, -21.662232965230942, 140.000000000000114, 47.0 ],
 					"text" : "output"
 				}
 
@@ -1126,7 +1126,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 850.499999999999886, -21.662232965230942, 103.0, 48.0 ],
+					"patching_rect" : [ 850.499999999999886, -21.662232965230942, 103.0, 47.0 ],
 					"text" : "input"
 				}
 
@@ -1380,7 +1380,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1515.277304243933486, 580.795891225337982, 37.0, 27.0 ],
+					"patching_rect" : [ 1515.277304243933486, 580.795891225337982, 37.0, 26.0 ],
 					"text" : "append wave"
 				}
 
@@ -2048,7 +2048,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
 					"patching_rect" : [ 412.285714285713652, 230.747747749090195, 105.0, 22.0 ],
-					"text" : "sfplay~ 1 @loop 1"
+					"text" : "sfplay~ 1 @loop 0"
 				}
 
 			}
@@ -2123,7 +2123,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -46.465771504470865, -21.662232965230942, 324.0, 48.0 ],
+					"patching_rect" : [ -46.465771504470865, -21.662232965230942, 324.0, 47.0 ],
 					"text" : "input/output section"
 				}
 
@@ -3532,63 +3532,63 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "drywet.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "feedback_settings.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "inputDebug.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "playheadsRouting.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tapeFilter_1.png",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/media",
+				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tapeFilter_2.png",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/media",
+				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tape_filter.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tube_saturator.gendsp",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/code",
+				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tube_saturator.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
