@@ -9,4 +9,4 @@ See [other](other) folder for more infos. The externals employed are:
 
 `ipoke~` by Pierre Alexandre Tremblay (2005-2018)
 
-`tape/tube` warmth GenExpr function by stkr, Feb. 2012.
+`tape/tube warmth` GenExpr function by stkr, Feb. 2012.
