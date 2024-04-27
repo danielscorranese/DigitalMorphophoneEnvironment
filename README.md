@@ -1,4 +1,6 @@
 # DIGITAL MORPHOPHONE ENVIRONMENT
+
+## Description
 A MaxMsp application that emulates the Morphophone. Under development.
 
 ## License
