@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 84.0, 1468.0, 753.0 ],
+		"rect" : [ 34.0, 77.0, 1484.0, 969.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -686,7 +686,7 @@
 					"comment" : "list: control data out",
 					"hint" : "list: control data out",
 					"id" : "obj-39",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -705,55 +705,55 @@
 					"patching_rect" : [ 303.433926742266067, 145.254385232925415, 144.18449302416002, 22.0 ],
 					"restore" : 					{
 						"ph10_c" : [ 1 ],
-						"ph10_f" : [ 1000.0 ],
-						"ph10_g" : [ -33.0 ],
-						"ph10_q" : [ 4.0 ],
-						"ph10_t" : [ 1 ],
+						"ph10_f" : [ 20.0 ],
+						"ph10_g" : [ 0.0 ],
+						"ph10_q" : [ 0.0 ],
+						"ph10_t" : [ 0 ],
 						"ph1_c" : [ 1 ],
-						"ph1_f" : [ 100.0 ],
-						"ph1_g" : [ -6.0 ],
-						"ph1_q" : [ 4.0 ],
-						"ph1_t" : [ 1 ],
+						"ph1_f" : [ 20.0 ],
+						"ph1_g" : [ 0.0 ],
+						"ph1_q" : [ 0.0 ],
+						"ph1_t" : [ 0 ],
 						"ph2_c" : [ 1 ],
-						"ph2_f" : [ 200.0 ],
-						"ph2_g" : [ -9.0 ],
-						"ph2_q" : [ 4.0 ],
-						"ph2_t" : [ 1 ],
+						"ph2_f" : [ 20.0 ],
+						"ph2_g" : [ 0.0 ],
+						"ph2_q" : [ 0.0 ],
+						"ph2_t" : [ 0 ],
 						"ph3_c" : [ 1 ],
-						"ph3_f" : [ 300.0 ],
-						"ph3_g" : [ -12.0 ],
-						"ph3_q" : [ 4.0 ],
-						"ph3_t" : [ 1 ],
+						"ph3_f" : [ 20.0 ],
+						"ph3_g" : [ 0.0 ],
+						"ph3_q" : [ 0.0 ],
+						"ph3_t" : [ 0 ],
 						"ph4_c" : [ 1 ],
-						"ph4_f" : [ 400.0 ],
-						"ph4_g" : [ -15.0 ],
-						"ph4_q" : [ 4.0 ],
-						"ph4_t" : [ 1 ],
+						"ph4_f" : [ 20.0 ],
+						"ph4_g" : [ 0.0 ],
+						"ph4_q" : [ 0.0 ],
+						"ph4_t" : [ 0 ],
 						"ph5_c" : [ 1 ],
-						"ph5_f" : [ 500.0 ],
-						"ph5_g" : [ -18.0 ],
-						"ph5_q" : [ 4.0 ],
-						"ph5_t" : [ 1 ],
+						"ph5_f" : [ 20.0 ],
+						"ph5_g" : [ 0.0 ],
+						"ph5_q" : [ 0.0 ],
+						"ph5_t" : [ 0 ],
 						"ph6_c" : [ 1 ],
-						"ph6_f" : [ 600.0 ],
-						"ph6_g" : [ -21.0 ],
-						"ph6_q" : [ 4.0 ],
-						"ph6_t" : [ 1 ],
+						"ph6_f" : [ 20.0 ],
+						"ph6_g" : [ 0.0 ],
+						"ph6_q" : [ 0.0 ],
+						"ph6_t" : [ 0 ],
 						"ph7_c" : [ 1 ],
-						"ph7_f" : [ 700.0 ],
-						"ph7_g" : [ -24.0 ],
-						"ph7_q" : [ 4.0 ],
-						"ph7_t" : [ 1 ],
+						"ph7_f" : [ 20.0 ],
+						"ph7_g" : [ 0.0 ],
+						"ph7_q" : [ 0.0 ],
+						"ph7_t" : [ 0 ],
 						"ph8_c" : [ 1 ],
-						"ph8_f" : [ 800.0 ],
-						"ph8_g" : [ -27.0 ],
-						"ph8_q" : [ 4.0 ],
-						"ph8_t" : [ 1 ],
+						"ph8_f" : [ 20.0 ],
+						"ph8_g" : [ 0.0 ],
+						"ph8_q" : [ 0.0 ],
+						"ph8_t" : [ 0 ],
 						"ph9_c" : [ 1 ],
-						"ph9_f" : [ 900.0 ],
-						"ph9_g" : [ -30.0 ],
-						"ph9_q" : [ 4.0 ],
-						"ph9_t" : [ 1 ]
+						"ph9_f" : [ 20.0 ],
+						"ph9_g" : [ 0.0 ],
+						"ph9_q" : [ 0.0 ],
+						"ph9_t" : [ 0 ]
 					}
 ,
 					"text" : "autopattr @autorestore 0",
@@ -1246,6 +1246,7 @@
 					"maxclass" : "flonum",
 					"maximum" : 10.0,
 					"minimum" : 0.0,
+					"numdecimalplaces" : 2,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -1265,6 +1266,7 @@
 					"maxclass" : "flonum",
 					"maximum" : 10.0,
 					"minimum" : 0.0,
+					"numdecimalplaces" : 2,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -1284,6 +1286,7 @@
 					"maxclass" : "flonum",
 					"maximum" : 10.0,
 					"minimum" : 0.0,
+					"numdecimalplaces" : 2,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -1303,6 +1306,7 @@
 					"maxclass" : "flonum",
 					"maximum" : 10.0,
 					"minimum" : 0.0,
+					"numdecimalplaces" : 2,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -1322,6 +1326,7 @@
 					"maxclass" : "flonum",
 					"maximum" : 10.0,
 					"minimum" : 0.0,
+					"numdecimalplaces" : 2,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -1341,6 +1346,7 @@
 					"maxclass" : "flonum",
 					"maximum" : 10.0,
 					"minimum" : 0.0,
+					"numdecimalplaces" : 2,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -1360,6 +1366,7 @@
 					"maxclass" : "flonum",
 					"maximum" : 10.0,
 					"minimum" : 0.0,
+					"numdecimalplaces" : 2,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -1379,6 +1386,7 @@
 					"maxclass" : "flonum",
 					"maximum" : 10.0,
 					"minimum" : 0.0,
+					"numdecimalplaces" : 2,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -1398,6 +1406,7 @@
 					"maxclass" : "flonum",
 					"maximum" : 10.0,
 					"minimum" : 0.0,
+					"numdecimalplaces" : 2,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -1417,6 +1426,7 @@
 					"maxclass" : "flonum",
 					"maximum" : 10.0,
 					"minimum" : 0.0,
+					"numdecimalplaces" : 2,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -3122,7 +3132,7 @@
 					"comment" : "mc.signal: processed signal",
 					"hint" : "mc.signal: processed signal",
 					"id" : "obj-31",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3148,11 +3158,11 @@
 					"comment" : "mc.signal: signal to process",
 					"hint" : "mc.signal: signal to process",
 					"id" : "obj-19",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 37.0, 26.0, 30.0, 30.0 ]
 				}
 
@@ -3175,7 +3185,7 @@
 					"comment" : "list: control data in",
 					"hint" : "list: control data in",
 					"id" : "obj-14",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -7284,6 +7294,92 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "amp_section_V2.maxpat",
+				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bandPass_section.maxpat",
+				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dial_freq_set.maxpat",
+				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "filterFrequencies.txt",
+				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/data",
+				"patcherrelativepath" : "../data",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "filters_mod_change.maxpat",
+				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "phPlotConf.maxpat",
+				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tapeFilter_1.png",
+				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tapeFilter_2.png",
+				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tape_filter.maxpat",
+				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tube_saturator.gendsp",
+				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tube_saturator.maxpat",
+				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "voiceMute.maxpat",
+				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
