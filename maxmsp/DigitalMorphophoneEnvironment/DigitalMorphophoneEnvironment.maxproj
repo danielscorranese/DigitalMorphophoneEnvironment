@@ -1,8 +1,8 @@
 {
-	"name" : "DigitalMorphophoneEnviroment",
+	"name" : "DigitalMorphophoneEnvironment",
 	"version" : 1,
 	"creationdate" : 3731757509,
-	"modificationdate" : 3795156855,
+	"modificationdate" : 3797088050,
 	"viewrect" : [ 11.0, 74.0, 283.0, 447.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -221,17 +221,12 @@
 		}
 ,
 		"data" : 		{
-			"filterFrequencies.txt" : 			{
-				"kind" : "textfile",
-				"local" : 1
-			}
-,
 			"controlsData.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
 ,
-			"playHeadPosRule.txt" : 			{
+			"prioriryOrder.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}
