@@ -1,1 +1,1 @@
-# morphophone_maxmsp
+# DME DIGITAL MORPHOPHONE ENVIRONMENT
