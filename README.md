@@ -5,7 +5,7 @@ A MaxMsp application that emulates the Morphophone. Under development.
 See the [LICENSE](LICENSE.md) file for license rights and limitations.
 
 ## Externals
-See [other](other) folder for more infos. The externals employed are:
+See [other](maxmsp/DigitalMorphophoneEnvironment/other) folder for more infos. The externals employed are:
 
 `ipoke~` by Pierre Alexandre Tremblay (2005-2018)
 
