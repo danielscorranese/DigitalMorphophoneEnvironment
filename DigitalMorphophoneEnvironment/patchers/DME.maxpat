@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 382.0, 203.0, 1166.0, 720.0 ],
+		"rect" : [ 384.0, 204.0, 1166.0, 720.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -176,8 +176,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 384.399999976158142, 126.5, 337.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 384.399999976158142, 126.5, 337.0, 20.0 ],
 					"text" : "*recommended settings: sr-->48KHz; up-->16; vector size -->1024",
 					"underline" : 1
 				}
@@ -507,10 +505,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
-					"patching_rect" : [ 438.199999988079071, 153.5, 208.0, 18.0 ],
+					"patching_rect" : [ 443.636376857757568, 146.909095287322998, 212.363642692565918, 29.0 ],
 					"pattrstorage" : "controlsData",
 					"presentation" : 1,
-					"presentation_rect" : [ 438.199999988079071, 153.5, 208.0, 18.0 ]
+					"presentation_rect" : [ 443.636376857757568, 146.909095287322998, 212.363642692565918, 29.0 ]
 				}
 
 			}
@@ -523,7 +521,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 366.949999988079071, 104.5, 318.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 366.949999988079071, 104.5, 318.0, 21.0 ],
+					"presentation_rect" : [ 367.0, 114.0, 318.0, 21.0 ],
 					"text" : "3. Start motor and try different configurations of settings."
 				}
 
@@ -537,7 +535,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 366.949999988079071, 82.5, 372.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 366.949999988079071, 82.5, 372.0, 21.0 ],
+					"presentation_rect" : [ 367.0, 92.0, 372.0, 21.0 ],
 					"text" : "2. Select input source and hit record to write signal into the buffer."
 				}
 
@@ -551,7 +549,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 366.949999988079071, 60.5, 396.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 366.949999988079071, 60.5, 396.0, 21.0 ],
+					"presentation_rect" : [ 367.0, 70.0, 396.0, 21.0 ],
 					"text" : "1. Select audio driver, sr frequency and upsampling value*. Turn on DSP."
 				}
 
