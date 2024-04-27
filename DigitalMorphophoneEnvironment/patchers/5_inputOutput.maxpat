@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 41.0, 84.0, 1468.0, 753.0 ],
+		"rect" : [ 34.0, 77.0, 1852.0, 969.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,30 @@
 		"showontab" : 0,
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-176",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 1570.677965777130794, 646.156520068645477, 29.5, 22.0 ],
+					"text" : "*~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-167",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 1499.296366286169814, 646.156520068645477, 29.5, 22.0 ],
+					"text" : "t i i"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontsize" : 10.0,
 					"id" : "obj-168",
@@ -145,7 +169,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 481.753880146493373, 136.262208734782575, 80.0, 13.0 ],
+					"patching_rect" : [ 1570.677965777130794, 696.122952818870544, 67.888525182882404, 13.157894611358643 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 478.235695708010212, 149.266938760876656, 102.922658532857895, 13.0 ]
 				}
@@ -254,7 +278,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 810.017931073904037, 112.616757035255432, 103.651161730289459, 22.0 ],
+					"patching_rect" : [ 810.017931073904037, 112.616757035255432, 103.651161730289459, 23.0 ],
 					"text" : "Feedback level",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -292,7 +316,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 636.016248098023198, 49.5, 95.431435424074607, 85.0 ],
+					"patching_rect" : [ 636.016248098023198, 49.5, 95.431435424074607, 87.0 ],
 					"text" : "Sum of the return (post amplification and filtering) of the signal from all active read heads (including tape noise)"
 				}
 
@@ -418,6 +442,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"cantchange" : 1,
 					"fontname" : "Bahnschrift",
 					"fontsize" : 10.0,
 					"format" : 6,
@@ -432,7 +457,7 @@
 					"patching_rect" : [ 858.855138629674911, 162.39921161532402, 48.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 63.764074131846428, 123.643386363983154, 39.0, 21.0 ],
-					"textcolor" : [ 0.0, 0.0, 0.0, 255.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"tricolor" : [ 0.329411764705882, 0.329411764705882, 0.329411764705882, 0.0 ]
 				}
 
@@ -443,10 +468,11 @@
 					"degrees" : 300,
 					"floatoutput" : 1,
 					"id" : "obj-150",
+					"ignoreclick" : 1,
 					"maxclass" : "dial",
 					"min" : -30.0,
 					"mode" : 5,
-					"needlecolor" : [ 0.0, 0.0, 0.0, 255.0 ],
+					"needlecolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
@@ -899,7 +925,7 @@
 					"fontsize" : 10.0,
 					"id" : "obj-80",
 					"maxclass" : "number",
-					"maximum" : 11,
+					"maximum" : 10,
 					"minimum" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -1112,7 +1138,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 966.843333538459433, -21.662232965230942, 140.000000000000114, 47.0 ],
+					"patching_rect" : [ 966.843333538459433, -21.662232965230942, 140.000000000000114, 48.0 ],
 					"text" : "output"
 				}
 
@@ -1126,7 +1152,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 850.499999999999886, -21.662232965230942, 103.0, 47.0 ],
+					"patching_rect" : [ 850.499999999999886, -21.662232965230942, 103.0, 48.0 ],
 					"text" : "input"
 				}
 
@@ -1380,7 +1406,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1515.277304243933486, 580.795891225337982, 37.0, 26.0 ],
+					"patching_rect" : [ 1515.277304243933486, 580.795891225337982, 37.0, 27.0 ],
 					"text" : "append wave"
 				}
 
@@ -2048,7 +2074,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
 					"patching_rect" : [ 412.285714285713652, 230.747747749090195, 105.0, 22.0 ],
-					"text" : "sfplay~ 1 @loop 0"
+					"text" : "sfplay~ 1 @loop 1"
 				}
 
 			}
@@ -2123,7 +2149,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -46.465771504470865, -21.662232965230942, 324.0, 47.0 ],
+					"patching_rect" : [ -46.465771504470865, -21.662232965230942, 324.0, 48.0 ],
 					"text" : "input/output section"
 				}
 
@@ -2163,7 +2189,7 @@
 					"comment" : "list: control data in",
 					"hint" : "list: control data in",
 					"id" : "obj-8",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2290,11 +2316,11 @@
 					"comment" : "mc.sig~ = processed signal",
 					"hint" : "mc.sig~ = processed signal",
 					"id" : "obj-7",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 975.0, 49.5, 30.0, 30.0 ]
 				}
 
@@ -2305,7 +2331,7 @@
 					"comment" : "sig~ : signal to prcess",
 					"hint" : "sig~ : signal to prcess",
 					"id" : "obj-6",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2588,6 +2614,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
+					"order" : 1,
+					"source" : [ "obj-118", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-176", 0 ],
+					"order" : 0,
 					"source" : [ "obj-118", 0 ]
 				}
 
@@ -2859,6 +2894,27 @@
 					"destination" : [ "obj-22", 0 ],
 					"midpoints" : [ 400.070211357644041, 586.0, 967.0, 586.0, 967.0, 289.0, 984.804810225963593, 289.0 ],
 					"source" : [ "obj-165", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-167", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-176", 1 ],
+					"source" : [ "obj-167", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-163", 0 ],
+					"source" : [ "obj-176", 0 ]
 				}
 
 			}
@@ -3178,7 +3234,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
+					"destination" : [ "obj-167", 0 ],
 					"source" : [ "obj-37", 0 ]
 				}
 
@@ -3393,7 +3449,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
-					"midpoints" : [ 984.195189774036407, 684.05882340669632, 1482.874865126501845, 684.05882340669632 ],
+					"midpoints" : [ 984.195189774036407, 682.88768059015274, 1482.874865126501845, 682.88768059015274 ],
 					"order" : 0,
 					"source" : [ "obj-71", 0 ]
 				}
@@ -3530,71 +3586,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "drywet.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "feedback_settings.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "inputDebug.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "playheadsRouting.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tapeFilter_1.png",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tapeFilter_2.png",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tape_filter.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tube_saturator.gendsp",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/code",
-				"patcherrelativepath" : "../code",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tube_saturator.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
