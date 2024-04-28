@@ -1,7 +1,9 @@
 # DIGITAL MORPHOPHONE ENVIRONMENT
 
 ## Description
-A MaxMsp application that emulates the Morphophone. Under development.
+A MaxMsp application that emulates the Morphophone, a complex magnetophonic echo system (tape loop delay) developed in the 1950s within the laboratories of the GRM (Groupe de Recherches Musicales) in Paris. 
+
+__UNDER DEVELOPMENT__
 
 ## License
 See the [LICENSE](LICENSE.md) file for license rights and limitations.
