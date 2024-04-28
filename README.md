@@ -12,3 +12,5 @@ See [other](maxmsp/DigitalMorphophoneEnvironment/other) folder for more infos. T
 `ipoke~` by Pierre Alexandre Tremblay (2005-2018)
 
 `tape/tube warmth` GenExpr function by stkr, Feb. 2012.
+
+## Known issues
