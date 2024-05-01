@@ -1,7 +1,7 @@
 # DIGITAL MORPHOPHONE ENVIRONMENT
 
 ## Description
-A __Max__ application that emulates the __morphophone__, a complex magnetophonic device (tape loop delay) developed in the 1950s within the laboratories of the GRM (Groupe de Recherches Musicales) in Paris. 
+__Max__ application that emulates the __morphophone__, a complex magnetophonic device (tape loop delay) developed in the 1950s within the laboratories of the GRM (Groupe de Recherches Musicales) in Paris. 
 
 __UNDER DEVELOPMENT__
 
