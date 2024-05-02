@@ -21,7 +21,7 @@
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
+		"toolbarvisible" : 0,
 		"lefttoolbarpinned" : 0,
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
@@ -1008,147 +1008,147 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "1_globalSettings.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2_delayTimes.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "3_buffer.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "4_amp&filters.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "5_inputOutput.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "about.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "amp_section_V2.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bandPass_section.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "controlsData.json",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/data",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "delays_19.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "delays_38.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "delays_76.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dial_freq_set.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "drywet.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dsp_STATE.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "feedback_settings.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "filterFrequencies.txt",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/data",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "filters_mod_change.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "flutter.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "heads_conversion.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "inputDebug.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1159,147 +1159,147 @@
 			}
 , 			{
 				"name" : "offsetTrend_check.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "offsetUpdateControl.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "phPlotConf.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "playHeads_V5.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "playhead.gendsp",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/code",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "playheadsRouting.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sampratePlot.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "secondCheck.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "speed_conv.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tapeFilter_1.png",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/media",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tapeFilter_2.png",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/media",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tape_conversion.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tape_filter.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tape_hiss.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tape_saturator.gendsp",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/code",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tape_saturator.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tube_saturator.gendsp",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/code",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tube_saturator.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "voiceMute.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "waveform_sliders_data.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "writeHead.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
