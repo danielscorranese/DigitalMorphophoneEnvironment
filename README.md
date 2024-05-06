@@ -13,3 +13,4 @@ See [other](maxmsp/DigitalMorphophoneEnvironment/other) folder for more infos. T
 `tape/tube warmth` GenExpr function by stkr, Feb. 2012.
 
 ## Known issues
+* The buffer import and export functions are not constrained by the oversampling operations performed in the poly instances. 
