@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 255.0, 141.0, 663.0, 435.0 ],
+		"rect" : [ 610.0, 371.0, 663.0, 435.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -21,7 +21,7 @@
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
+		"toolbarvisible" : 0,
 		"lefttoolbarpinned" : 0,
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
@@ -39,6 +39,43 @@
 		"subpatcher_template" : "userTemplate_1",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-36",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1170.0, 89.0, 69.0, 22.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"text" : "thispatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-42",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1170.0, 20.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-46",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1170.0, 53.0, 400.0, 22.0 ],
+					"text" : "window flags nozoom, window flags nomenu, window size, window exec"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontsize" : 10.0,
 					"id" : "obj-12",
@@ -225,8 +262,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -301,8 +338,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1800,7 +1837,7 @@
 					"comment" : "list: control data in",
 					"hint" : "list: control data in",
 					"id" : "obj-50",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1847,10 +1884,10 @@
 						"drive_amp" : [ 4.9 ],
 						"drive_byp" : [ 0 ],
 						"headDim" : [ 0.0 ],
-						"mode" : [ 1 ],
+						"mode" : [ 0 ],
 						"reset" : [ 1 ],
-						"speed_INIT" : [ 0 ],
-						"tapeNoise" : [ 30.0 ]
+						"speed_INIT" : [ 1 ],
+						"tapeNoise" : [ 0.0 ]
 					}
 ,
 					"text" : "autopattr @autorestore 0",
@@ -1895,8 +1932,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2383,7 +2420,7 @@
 					"comment" : "list: control data out",
 					"hint" : "list: control data out",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2613,7 +2650,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2940,6 +2977,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-46", 0 ],
+					"source" : [ "obj-42", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"midpoints" : [ 778.979081362485886, 688.089774489402771, 31.405009716749191, 688.089774489402771 ],
 					"source" : [ "obj-43", 0 ]
@@ -2966,6 +3010,13 @@
 					"destination" : [ "obj-6", 0 ],
 					"midpoints" : [ 799.479081362485886, 486.851818680763245, 891.502935737371445, 486.851818680763245 ],
 					"source" : [ "obj-45", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"source" : [ "obj-46", 0 ]
 				}
 
 			}
@@ -3382,29 +3433,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "heads_conversion.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sampratePlot.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tape_conversion.maxpat",
-				"bootpath" : "~/Documents/GitHub/morphophone_maxmsp/Morphophone/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.298039215686275, 0.298039215686275, 0.262745098039216, 1.0 ],
 		"stripecolor" : [ 0.243137254901961, 0.243137254901961, 0.243137254901961, 1.0 ],
 		"editing_bgcolor" : [ 0.329411764705882, 0.329411764705882, 0.329411764705882, 1.0 ]
