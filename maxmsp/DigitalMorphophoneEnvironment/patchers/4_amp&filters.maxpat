@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1484.0, 969.0 ],
+		"rect" : [ 34.0, 77.0, 1852.0, 969.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -704,6 +704,36 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 303.433926742266067, 145.254385232925415, 144.18449302416002, 22.0 ],
 					"restore" : 					{
+						"dial" : [ 0.0 ],
+						"dial[10]" : [ 0.0 ],
+						"dial[11]" : [ 0.0 ],
+						"dial[12]" : [ 0.0 ],
+						"dial[13]" : [ 0.0 ],
+						"dial[14]" : [ 0.0 ],
+						"dial[15]" : [ 0.0 ],
+						"dial[16]" : [ 0.0 ],
+						"dial[17]" : [ 0.0 ],
+						"dial[18]" : [ 0.0 ],
+						"dial[19]" : [ 0.0 ],
+						"dial[1]" : [ 0.0 ],
+						"dial[20]" : [ 0.0 ],
+						"dial[21]" : [ 0.0 ],
+						"dial[22]" : [ 0.0 ],
+						"dial[23]" : [ 0.0 ],
+						"dial[24]" : [ 0.0 ],
+						"dial[25]" : [ 0.0 ],
+						"dial[26]" : [ 0.0 ],
+						"dial[27]" : [ 0.0 ],
+						"dial[28]" : [ 0.0 ],
+						"dial[29]" : [ 0.0 ],
+						"dial[2]" : [ 0.0 ],
+						"dial[3]" : [ 0.0 ],
+						"dial[4]" : [ 0.0 ],
+						"dial[5]" : [ 0.0 ],
+						"dial[6]" : [ 0.0 ],
+						"dial[7]" : [ 0.0 ],
+						"dial[8]" : [ 0.0 ],
+						"dial[9]" : [ 0.0 ],
 						"ph10_c" : [ 1 ],
 						"ph10_f" : [ 20.0 ],
 						"ph10_g" : [ 0.0 ],
@@ -2720,11 +2750,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 1476.810173646539624, 650.133074402809143, 47.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 312.500012159347534, 567.603707134723663, 44.0, 44.0 ],
-					"size" : 10.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "dial[20]",
+							"parameter_mmax" : 10.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "dial[20]",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 10.0,
+					"varname" : "dial[20]"
 				}
 
 			}
@@ -2774,11 +2816,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 1476.988873707724451, 442.371061474084854, 47.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 239.416666924953233, 567.603707134723663, 44.0, 44.0 ],
-					"size" : 15000.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "dial[19]",
+							"parameter_mmax" : 15000.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "dial[19]",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 15000.0,
+					"varname" : "dial[19]"
 				}
 
 			}
@@ -2816,11 +2870,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 1370.914364221638152, 442.371061474084854, 48.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 239.416666924953233, 507.270371645689011, 44.0, 44.0 ],
-					"size" : 15000.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "dial[18]",
+							"parameter_mmax" : 15000.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "dial[18]",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 15000.0,
+					"varname" : "dial[18]"
 				}
 
 			}
@@ -2858,11 +2924,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 1270.505995639862704, 442.371061474084854, 48.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 239.416666924953233, 447.182150274515152, 44.0, 44.0 ],
-					"size" : 15000.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "dial[17]",
+							"parameter_mmax" : 15000.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "dial[17]",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 15000.0,
+					"varname" : "dial[17]"
 				}
 
 			}
@@ -2900,11 +2978,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 1169.348415701620524, 442.371061474084854, 48.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 239.416666924953233, 386.603719383478165, 44.0, 44.0 ],
-					"size" : 15000.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "dial[16]",
+							"parameter_mmax" : 15000.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "dial[16]",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 15000.0,
+					"varname" : "dial[16]"
 				}
 
 			}
@@ -2942,11 +3032,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 1067.716080188112755, 442.371061474084854, 46.0, 46.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 239.416666924953233, 326.603718876838684, 44.0, 44.0 ],
-					"size" : 15000.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "dial[15]",
+							"parameter_mmax" : 15000.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "dial[15]",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 15000.0,
+					"varname" : "dial[15]"
 				}
 
 			}
@@ -2984,11 +3086,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 964.088490393795837, 441.371061474084854, 48.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 239.416666924953233, 266.437052309513092, 44.0, 44.0 ],
-					"size" : 15000.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "dial[14]",
+							"parameter_mmax" : 15000.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "dial[14]",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 15000.0,
+					"varname" : "dial[14]"
 				}
 
 			}
@@ -3026,11 +3140,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 861.458527739883721, 441.371061474084854, 49.0, 49.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 239.416666924953233, 206.937052935361862, 44.0, 44.0 ],
-					"size" : 15000.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "dial[13]",
+							"parameter_mmax" : 15000.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "dial[13]",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 15000.0,
+					"varname" : "dial[13]"
 				}
 
 			}
@@ -3068,11 +3194,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 758.522253387097862, 441.371061474084854, 48.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 239.416666924953233, 146.682147353887672, 44.0, 44.0 ],
-					"size" : 15000.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "dial[12]",
+							"parameter_mmax" : 15000.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "dial[12]",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 15000.0,
+					"varname" : "dial[12]"
 				}
 
 			}
@@ -3292,11 +3430,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 1476.118273431757643, 109.666650056838989, 47.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 92.23189041018486, 567.603707134723663, 44.0, 44.0 ],
-					"size" : 70.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "dial",
+							"parameter_mmax" : 70.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "dial",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 70.0,
+					"varname" : "dial"
 				}
 
 			}
@@ -3369,11 +3519,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 1369.868596721258427, 109.666650056838989, 48.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 92.23189041018486, 507.270371645689011, 44.0, 44.0 ],
-					"size" : 70.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "dial[1]",
+							"parameter_mmax" : 70.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "dial[1]",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 70.0,
+					"varname" : "dial[1]"
 				}
 
 			}
@@ -3403,11 +3565,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 1370.667634826899302, 650.133074402809143, 48.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 312.500012159347534, 507.270371645689011, 44.0, 44.0 ],
-					"size" : 10.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "dial[21]",
+							"parameter_mmax" : 10.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "dial[21]",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 10.0,
+					"varname" : "dial[21]"
 				}
 
 			}
@@ -3498,11 +3672,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 1269.285060915070517, 109.666650056838989, 48.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 92.23189041018486, 447.182150274515152, 44.0, 44.0 ],
-					"size" : 70.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "dial[2]",
+							"parameter_mmax" : 70.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "dial[2]",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 70.0,
+					"varname" : "dial[2]"
 				}
 
 			}
@@ -3532,11 +3718,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 1270.191236911569376, 650.133074402809143, 48.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 312.500012159347534, 447.182150274515152, 44.0, 44.0 ],
-					"size" : 10.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "dial[22]",
+							"parameter_mmax" : 10.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "dial[22]",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 10.0,
+					"varname" : "dial[22]"
 				}
 
 			}
@@ -3595,11 +3793,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 1167.952313752415648, 109.666650056838989, 48.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 92.23189041018486, 386.603719383478165, 44.0, 44.0 ],
-					"size" : 70.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "dial[3]",
+							"parameter_mmax" : 70.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "dial[3]",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 70.0,
+					"varname" : "dial[3]"
 				}
 
 			}
@@ -3629,11 +3839,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 1168.965627639773174, 650.133074402809143, 48.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 312.500012159347534, 386.603719383478165, 44.0, 44.0 ],
-					"size" : 10.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "dial[23]",
+							"parameter_mmax" : 10.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "dial[23]",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 10.0,
+					"varname" : "dial[23]"
 				}
 
 			}
@@ -3724,11 +3946,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 1067.401796774872992, 109.666650056838989, 46.0, 46.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 92.23189041018486, 326.603718876838684, 44.0, 44.0 ],
-					"size" : 70.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "dial[4]",
+							"parameter_mmax" : 70.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "dial[4]",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 70.0,
+					"varname" : "dial[4]"
 				}
 
 			}
@@ -3758,11 +3992,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 1066.120592605129787, 649.133074402809143, 46.0, 46.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 312.500012159347534, 326.603718876838684, 44.0, 44.0 ],
-					"size" : 10.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "dial[24]",
+							"parameter_mmax" : 10.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "dial[24]",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 10.0,
+					"varname" : "dial[24]"
 				}
 
 			}
@@ -3821,11 +4067,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 960.987556447128554, 108.666650056838989, 48.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 92.23189041018486, 266.437052309513092, 44.0, 44.0 ],
-					"size" : 70.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "dial[5]",
+							"parameter_mmax" : 70.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "dial[5]",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 70.0,
+					"varname" : "dial[5]"
 				}
 
 			}
@@ -3855,11 +4113,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 963.448197344777327, 649.133074402809143, 48.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 312.500012159347534, 266.437052309513092, 44.0, 44.0 ],
-					"size" : 10.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "dial[25]",
+							"parameter_mmax" : 10.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "dial[25]",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 10.0,
+					"varname" : "dial[25]"
 				}
 
 			}
@@ -3950,11 +4220,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 856.137511226618017, 109.666650056838989, 49.0, 49.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 92.23189041018486, 206.937052935361862, 44.0, 44.0 ],
-					"size" : 70.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "dial[6]",
+							"parameter_mmax" : 70.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "dial[6]",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 70.0,
+					"varname" : "dial[6]"
 				}
 
 			}
@@ -3984,11 +4266,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 860.775802084424868, 649.133074402809143, 49.0, 49.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 312.500012159347534, 206.937052935361862, 44.0, 44.0 ],
-					"size" : 10.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "dial[26]",
+							"parameter_mmax" : 10.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "dial[26]",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 10.0,
+					"varname" : "dial[26]"
 				}
 
 			}
@@ -4047,11 +4341,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 757.053975420430561, 108.666650056838989, 48.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 92.23189041018486, 146.682147353887672, 44.0, 44.0 ],
-					"size" : 70.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "dial[7]",
+							"parameter_mmax" : 70.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "dial[7]",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 70.0,
+					"varname" : "dial[7]"
 				}
 
 			}
@@ -4081,11 +4387,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 757.860994853831244, 649.133074402809143, 48.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 312.500012159347534, 146.682147353887672, 44.0, 44.0 ],
-					"size" : 10.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "dial[27]",
+							"parameter_mmax" : 10.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "dial[27]",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 10.0,
+					"varname" : "dial[27]"
 				}
 
 			}
@@ -4176,11 +4494,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 655.987737672098319, 108.666650056838989, 47.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 92.23189041018486, 85.937048047780991, 44.0, 44.0 ],
-					"size" : 70.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "dial[8]",
+							"parameter_mmax" : 70.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "dial[8]",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 70.0,
+					"varname" : "dial[8]"
 				}
 
 			}
@@ -4210,11 +4540,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 656.267048978966159, 649.133074402809143, 47.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 312.500012159347534, 85.937048047780991, 44.0, 44.0 ],
-					"size" : 10.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "dial[28]",
+							"parameter_mmax" : 10.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "dial[28]",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 10.0,
+					"varname" : "dial[28]"
 				}
 
 			}
@@ -4291,11 +4633,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 553.007013123032038, 108.666650056838989, 47.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 92.23189041018486, 25.810016274452209, 44.0, 44.0 ],
-					"size" : 70.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "dial[9]",
+							"parameter_mmax" : 70.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "dial[9]",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 70.0,
+					"varname" : "dial[9]"
 				}
 
 			}
@@ -4327,11 +4681,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 552.758616303367489, 649.133074402809143, 47.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 312.500012159347534, 25.810016274452209, 44.0, 44.0 ],
-					"size" : 10.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "dial[29]",
+							"parameter_mmax" : 10.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "dial[29]",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 10.0,
+					"varname" : "dial[29]"
 				}
 
 			}
@@ -4364,11 +4730,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 657.002689982989295, 441.371061474084854, 47.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 239.416666924953233, 85.937048047780991, 44.0, 44.0 ],
-					"size" : 15000.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "dial[11]",
+							"parameter_mmax" : 15000.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "dial[11]",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 15000.0,
+					"varname" : "dial[11]"
 				}
 
 			}
@@ -4406,11 +4784,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 553.568639778146917, 441.371061474084854, 47.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 239.416666924953233, 25.810016274452209, 44.0, 44.0 ],
-					"size" : 15000.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "dial[10]",
+							"parameter_mmax" : 15000.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "dial[10]",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 15000.0,
+					"varname" : "dial[10]"
 				}
 
 			}
@@ -7294,86 +7684,129 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-10" : [ "dial[11]", "dial[11]", 0 ],
+			"obj-26" : [ "dial[9]", "dial[9]", 0 ],
+			"obj-28" : [ "dial[29]", "dial[29]", 0 ],
+			"obj-30" : [ "dial[10]", "dial[10]", 0 ],
+			"obj-476" : [ "dial[6]", "dial[6]", 0 ],
+			"obj-478" : [ "dial[26]", "dial[26]", 0 ],
+			"obj-480" : [ "dial[13]", "dial[13]", 0 ],
+			"obj-484" : [ "dial[7]", "dial[7]", 0 ],
+			"obj-486" : [ "dial[27]", "dial[27]", 0 ],
+			"obj-488" : [ "dial[12]", "dial[12]", 0 ],
+			"obj-494" : [ "dial[4]", "dial[4]", 0 ],
+			"obj-496" : [ "dial[24]", "dial[24]", 0 ],
+			"obj-498" : [ "dial[15]", "dial[15]", 0 ],
+			"obj-502" : [ "dial[5]", "dial[5]", 0 ],
+			"obj-504" : [ "dial[25]", "dial[25]", 0 ],
+			"obj-506" : [ "dial[14]", "dial[14]", 0 ],
+			"obj-512" : [ "dial", "dial", 0 ],
+			"obj-514" : [ "dial[20]", "dial[20]", 0 ],
+			"obj-516" : [ "dial[19]", "dial[19]", 0 ],
+			"obj-520" : [ "dial[1]", "dial[1]", 0 ],
+			"obj-522" : [ "dial[21]", "dial[21]", 0 ],
+			"obj-524" : [ "dial[18]", "dial[18]", 0 ],
+			"obj-530" : [ "dial[2]", "dial[2]", 0 ],
+			"obj-532" : [ "dial[22]", "dial[22]", 0 ],
+			"obj-534" : [ "dial[17]", "dial[17]", 0 ],
+			"obj-538" : [ "dial[3]", "dial[3]", 0 ],
+			"obj-540" : [ "dial[23]", "dial[23]", 0 ],
+			"obj-542" : [ "dial[16]", "dial[16]", 0 ],
+			"obj-6" : [ "dial[8]", "dial[8]", 0 ],
+			"obj-8" : [ "dial[28]", "dial[28]", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "amp_section_V2.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bandPass_section.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dial_freq_set.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "filterFrequencies.txt",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/data",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "filters_mod_change.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "phPlotConf.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tapeFilter_1.png",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/media",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tapeFilter_2.png",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/media",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tape_filter.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tube_saturator.gendsp",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/code",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tube_saturator.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "voiceMute.maxpat",
-				"bootpath" : "~/Documents/GitHub/DME_DigitalMorphophoneEnviroment/DigitalMorphophoneEnviroment/patchers",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

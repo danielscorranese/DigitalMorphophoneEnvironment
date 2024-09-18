@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -476,10 +476,21 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 801.975312978029251, 135.816309571266174, 47.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 78.658438359530692, 133.923027550013899, 35.844684919055254, 35.844684919055211 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "feedbackValue",
+							"parameter_mmax" : 30.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "feedbackValue",
+							"parameter_type" : 0
+						}
+
+					}
+,
 					"size" : 30.0,
 					"varname" : "feedbackValue"
 				}
@@ -799,11 +810,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 1115.304810225963593, 236.43582957983017, 47.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 619.544269958645828, 96.40219423654878, 35.844684919055254, 35.844684919055254 ],
-					"size" : 1.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "dial[2]",
+							"parameter_mmax" : 1.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "dial[2]",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 1.0,
+					"varname" : "dial[2]"
 				}
 
 			}
@@ -1283,11 +1306,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 1059.0, 435.346494734287262, 47.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 691.463331018718009, 96.501705872432424, 35.844684919055254, 35.844684919055254 ],
-					"size" : 70.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "dial[1]",
+							"parameter_mmax" : 70.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "dial[1]",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 70.0,
+					"varname" : "dial[1]"
 				}
 
 			}
@@ -1389,11 +1424,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 177.202768351630027, 405.878187090158463, 47.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 76.945023779900794, 90.515969810469983, 35.844684919055254, 35.844684919055254 ],
-					"size" : 70.0
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "dial",
+							"parameter_mmax" : 70.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "dial",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"size" : 70.0,
+					"varname" : "dial"
 				}
 
 			}
@@ -2189,7 +2236,7 @@
 					"comment" : "list: control data in",
 					"hint" : "list: control data in",
 					"id" : "obj-8",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2316,11 +2363,11 @@
 					"comment" : "mc.sig~ = processed signal",
 					"hint" : "mc.sig~ = processed signal",
 					"id" : "obj-7",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 975.0, 49.5, 30.0, 30.0 ]
 				}
 
@@ -2331,7 +2378,7 @@
 					"comment" : "sig~ : signal to prcess",
 					"hint" : "sig~ : signal to prcess",
 					"id" : "obj-6",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3586,6 +3633,88 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-150" : [ "feedbackValue", "feedbackValue", 0 ],
+			"obj-25" : [ "dial", "dial", 0 ],
+			"obj-88" : [ "dial[2]", "dial[2]", 0 ],
+			"obj-93" : [ "dial[1]", "dial[1]", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "drywet.maxpat",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "feedback_settings.maxpat",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "inputDebug.maxpat",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "playheadsRouting.maxpat",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tapeFilter_1.png",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tapeFilter_2.png",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tape_filter.maxpat",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tube_saturator.gendsp",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tube_saturator.maxpat",
+				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
