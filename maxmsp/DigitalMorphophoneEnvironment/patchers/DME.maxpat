@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -1057,6 +1057,255 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-17::obj-150" : [ "feedbackValue", "feedbackValue", 0 ],
+			"obj-17::obj-25" : [ "dial", "dial", 0 ],
+			"obj-17::obj-88" : [ "dial[2]", "dial[2]", 0 ],
+			"obj-17::obj-93" : [ "dial[1]", "dial[1]", 0 ],
+			"obj-23::obj-10" : [ "dial[13]", "dial[11]", 0 ],
+			"obj-23::obj-26" : [ "dial[9]", "dial[9]", 0 ],
+			"obj-23::obj-28" : [ "dial[29]", "dial[29]", 0 ],
+			"obj-23::obj-30" : [ "dial[11]", "dial[10]", 0 ],
+			"obj-23::obj-476" : [ "dial[6]", "dial[6]", 0 ],
+			"obj-23::obj-478" : [ "dial[26]", "dial[26]", 0 ],
+			"obj-23::obj-480" : [ "dial[24]", "dial[13]", 0 ],
+			"obj-23::obj-484" : [ "dial[7]", "dial[7]", 0 ],
+			"obj-23::obj-486" : [ "dial[27]", "dial[27]", 0 ],
+			"obj-23::obj-488" : [ "dial[18]", "dial[12]", 0 ],
+			"obj-23::obj-494" : [ "dial[4]", "dial[4]", 0 ],
+			"obj-23::obj-496" : [ "dial[31]", "dial[24]", 0 ],
+			"obj-23::obj-498" : [ "dial[25]", "dial[15]", 0 ],
+			"obj-23::obj-502" : [ "dial[5]", "dial[5]", 0 ],
+			"obj-23::obj-504" : [ "dial[32]", "dial[25]", 0 ],
+			"obj-23::obj-506" : [ "dial[14]", "dial[14]", 0 ],
+			"obj-23::obj-512" : [ "dial[8]", "dial", 0 ],
+			"obj-23::obj-514" : [ "dial[21]", "dial[20]", 0 ],
+			"obj-23::obj-516" : [ "dial[30]", "dial[19]", 0 ],
+			"obj-23::obj-520" : [ "dial[10]", "dial[1]", 0 ],
+			"obj-23::obj-522" : [ "dial[15]", "dial[21]", 0 ],
+			"obj-23::obj-524" : [ "dial[20]", "dial[18]", 0 ],
+			"obj-23::obj-530" : [ "dial[19]", "dial[2]", 0 ],
+			"obj-23::obj-532" : [ "dial[22]", "dial[22]", 0 ],
+			"obj-23::obj-534" : [ "dial[17]", "dial[17]", 0 ],
+			"obj-23::obj-538" : [ "dial[12]", "dial[3]", 0 ],
+			"obj-23::obj-540" : [ "dial[23]", "dial[23]", 0 ],
+			"obj-23::obj-542" : [ "dial[16]", "dial[16]", 0 ],
+			"obj-23::obj-6" : [ "dial[3]", "dial[8]", 0 ],
+			"obj-23::obj-8" : [ "dial[28]", "dial[28]", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"parameter_map" : 		{
+			"midi" : 			{
+				"dial[9]" : 				{
+					"srcname" : "77.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 70.0,
+					"flags" : 2
+				}
+,
+				"dial[3]" : 				{
+					"srcname" : "78.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 70.0,
+					"flags" : 2
+				}
+,
+				"dial[7]" : 				{
+					"srcname" : "79.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 70.0,
+					"flags" : 2
+				}
+,
+				"dial[6]" : 				{
+					"srcname" : "80.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 70.0,
+					"flags" : 2
+				}
+,
+				"dial[5]" : 				{
+					"srcname" : "81.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 70.0,
+					"flags" : 2
+				}
+,
+				"dial[4]" : 				{
+					"srcname" : "82.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 70.0,
+					"flags" : 2
+				}
+,
+				"dial[12]" : 				{
+					"srcname" : "83.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 70.0,
+					"flags" : 2
+				}
+,
+				"dial[19]" : 				{
+					"srcname" : "84.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 70.0,
+					"flags" : 2
+				}
+,
+				"dial[11]" : 				{
+					"srcname" : "13.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 15000.0,
+					"flags" : 2
+				}
+,
+				"dial[13]" : 				{
+					"srcname" : "14.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 15000.0,
+					"flags" : 2
+				}
+,
+				"dial[18]" : 				{
+					"srcname" : "15.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 15000.0,
+					"flags" : 2
+				}
+,
+				"dial[24]" : 				{
+					"srcname" : "16.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 15000.0,
+					"flags" : 2
+				}
+,
+				"dial[14]" : 				{
+					"srcname" : "17.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 15000.0,
+					"flags" : 2
+				}
+,
+				"dial[25]" : 				{
+					"srcname" : "18.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 15000.0,
+					"flags" : 2
+				}
+,
+				"dial[16]" : 				{
+					"srcname" : "19.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 15000.0,
+					"flags" : 2
+				}
+,
+				"dial[17]" : 				{
+					"srcname" : "20.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 15000.0,
+					"flags" : 2
+				}
+,
+				"dial[29]" : 				{
+					"srcname" : "29.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 10.0,
+					"flags" : 2
+				}
+,
+				"dial[28]" : 				{
+					"srcname" : "30.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 10.0,
+					"flags" : 2
+				}
+,
+				"dial[27]" : 				{
+					"srcname" : "31.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 10.0,
+					"flags" : 2
+				}
+,
+				"dial[26]" : 				{
+					"srcname" : "32.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 10.0,
+					"flags" : 2
+				}
+,
+				"dial[32]" : 				{
+					"srcname" : "33.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 10.0,
+					"flags" : 2
+				}
+,
+				"dial[31]" : 				{
+					"srcname" : "34.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 10.0,
+					"flags" : 2
+				}
+,
+				"dial[23]" : 				{
+					"srcname" : "35.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 10.0,
+					"flags" : 2
+				}
+,
+				"dial[22]" : 				{
+					"srcname" : "36.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 10.0,
+					"flags" : 2
+				}
+,
+				"dial" : 				{
+					"srcname" : "49.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 70.0,
+					"flags" : 2
+				}
+,
+				"feedbackValue" : 				{
+					"srcname" : "52.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 30.0,
+					"flags" : 2
+				}
+,
+				"dial[2]" : 				{
+					"srcname" : "53.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 1.0,
+					"flags" : 2
+				}
+,
+				"dial[1]" : 				{
+					"srcname" : "56.ctrl.0.chan.midi",
+					"min" : 0.0,
+					"max" : 70.0,
+					"flags" : 2
+				}
+
+			}
+
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "1_globalSettings.maxpat",
 				"bootpath" : "~/Documents/GitHub/DigitalMorphophoneEnvironment/maxmsp/DigitalMorphophoneEnvironment/patchers",
