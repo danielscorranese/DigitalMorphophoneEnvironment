@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 384.0, 204.0, 1166.0, 720.0 ],
+		"rect" : [ 381.0, 203.0, 1165.0, 714.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -70,7 +70,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1173.0, 17.0, 400.0, 22.0 ],
+					"patching_rect" : [ 1173.0, 17.0, 395.0, 22.0 ],
 					"text" : "window flags nozoom, window flags nomenu, window size, window exec"
 				}
 
@@ -161,13 +161,14 @@
 					"fontname" : "Bahnschrift",
 					"fontsize" : 18.0,
 					"id" : "obj-18",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 436.021441578865051, 19.588235378265381, 278.0, 28.0 ],
+					"patching_rect" : [ 436.021441578865051, 19.588235378265381, 278.0, 50.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 436.021441578865051, 17.504902094602585, 278.0, 28.0 ],
-					"text" : "Digital Morphophone Enviroment"
+					"presentation_rect" : [ 425.0, 18.0, 283.0, 28.0 ],
+					"text" : "Digital Morphophone Environment"
 				}
 
 			}
@@ -626,7 +627,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 104.82258066534996, 15.088235378265381, 134.0, 28.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 104.82258066534996, 15.088235378265381, 134.0, 28.0 ],
+					"presentation_rect" : [ 104.0, 15.0, 134.0, 28.0 ],
 					"text" : "DSP Settings"
 				}
 
@@ -707,7 +708,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 367.272580623626709, 10.588235378265381, 70.0, 43.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 367.272580623626709, 10.588235378265381, 70.0, 43.0 ],
+					"presentation_rect" : [ 362.0, 11.0, 70.0, 43.0 ],
 					"text" : "DME"
 				}
 
