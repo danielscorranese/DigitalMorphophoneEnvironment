@@ -13,4 +13,5 @@ See [other](maxmsp/DigitalMorphophoneEnvironment/other) folder for more infos. T
 `tape/tube warmth` GenExpr function by stkr, Feb. 2012.
 
 ## Known issues
-* The buffer import and export functions are not constrained by the oversampling operations performed in the poly instances. 
+* The buffer import and export functions are not constrained by the oversampling operations performed in the poly instances.
+* In specific configurations, the first and last read pointers may overlap with the write pointer, resulting in unwanted glitches. This issue occurs when the flutter function is enabled and the read pointers are positioned close to the write pointer.
