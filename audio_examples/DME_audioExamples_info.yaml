@@ -1,0 +1,199 @@
+# Digital Morphophone Environment - Audio Examples Information
+
+# sine wave with no elaboration
+example_01:                    
+  file_name: "dme_example_01.wav"
+  sample_rate: 48000           
+  operating_mode: "extended"   # philological or extended
+  upsampling_factor: 8         # 1x, 8x, 16x
+  saturation:
+    enabled: false
+    amount: 5                  # from 0.1 to 10 
+  tape_hiss_level: 0           # from 0 to 100
+  flutter:
+    amount: 0                  # from 0 to 100
+    drops_probability: 0.5     # from 0 to 100
+  input_source: sine  
+  input_level_dB: 0               
+  rotation_speed: 38           # in cm/s
+  feedback:
+    enabled: false
+    attenuation_dB: 0          # feedback gain scaling in dB
+  dry_wet: 1                   # from 0 (dry) to 1 (wet)
+  output_level_dB: 0           # final gain trim
+  playback_heads:
+    active_heads: [1]          # head numbers used (1 to 10)
+    levels_dB:
+      1: 0
+    delays_ms:
+      1: 50
+  bandpass_filter:
+    center_frequency:
+      1: 15000
+    Q_factor:
+      1: 0
+
+# sine wave with saturation
+example_02:                   
+  file_name: "dme_example_02.wav"
+  sample_rate: 48000           
+  operating_mode: "extended"   
+  upsampling_factor: 8       
+  saturation:
+    enabled: true
+    amount: 5                 
+  tape_hiss_level: 0           
+  flutter:
+    amount: 0                  
+    drops_probability: 0       
+  input_source: sine  
+  input_level_dB: 0               
+  rotation_speed: 38          
+  feedback:
+    enabled: false
+    attenuation_dB: 0          
+  dry_wet: 1                  
+  output_level_dB: 0           
+  playback_heads:
+    active_heads: [1]          
+    levels_dB:
+      1: 0
+    delays_ms:
+      1: 50
+  bandpass_filter:
+    center_frequency:
+      1: 15000
+    Q_factor:
+      1: 0
+
+# sine wave with saturation, playhead output attenuation
+example_03:                    
+  file_name: "dme_example_03.wav"
+  sample_rate: 48000           
+  operating_mode: "extended"   
+  upsampling_factor: 8         
+  saturation:
+    enabled: true
+    amount: 5                  
+  tape_hiss_level: 0          
+  flutter:
+    amount: 0                 
+    drops_probability: 0       
+  input_source: sine  
+  input_level_dB: 0               
+  rotation_speed: 38         
+  feedback:
+    enabled: false
+    attenuation_dB: 0          
+  dry_wet: 1                  
+  output_level_dB: 0           
+  playback_heads:
+    active_heads: [1]          
+    levels_dB:
+      1: -9
+    delays_ms:
+      1: 50
+  bandpass_filter:
+    center_frequency:
+      1: 15000
+    Q_factor:
+      1: 0
+
+# tape noise
+example_04:                    
+  file_name: "dme_example_04.wav"
+  sample_rate: 48000           
+  operating_mode: "extended"   
+  upsampling_factor: 8         
+  saturation:
+    enabled: false
+    amount: 5                  
+  tape_hiss_level: 100          
+  flutter:
+    amount: 0                 
+    drops_probability: 0       
+  input_source: none  
+  input_level_dB: 0               
+  rotation_speed: 38         
+  feedback:
+    enabled: false
+    attenuation_dB: 0          
+  dry_wet: 1                  
+  output_level_dB: 0           
+  playback_heads:
+    active_heads: [1]          
+    levels_dB:
+      1: 0
+    delays_ms:
+      1: 50
+  bandpass_filter:
+    center_frequency:
+      1: 15000
+    Q_factor:
+      1: 0
+
+# sine with flutter, upsampling x8
+example_04:                    
+  file_name: "dme_example_04.wav"
+  sample_rate: 48000           
+  operating_mode: "extended"   
+  upsampling_factor: 8         
+  saturation:
+    enabled: false
+    amount: 5                  
+  tape_hiss_level: 0          
+  flutter:
+    amount: 50                 
+    drops_probability: 25       
+  input_source: sine  
+  input_level_dB: 0               
+  rotation_speed: 38         
+  feedback:
+    enabled: false
+    attenuation_dB: 0          
+  dry_wet: 1                  
+  output_level_dB: 0           
+  playback_heads:
+    active_heads: [1]          
+    levels_dB:
+      1: -6
+    delays_ms:
+      1: 50
+  bandpass_filter:
+    center_frequency:
+      1: 15000
+    Q_factor:
+      1: 0
+
+# sine with flutter, upsampling x16
+example_04:                    
+  file_name: "dme_example_04.wav"
+  sample_rate: 48000           
+  operating_mode: "extended"   
+  upsampling_factor: 16         
+  saturation:
+    enabled: false
+    amount: 5                  
+  tape_hiss_level: 0          
+  flutter:
+    amount: 50                 
+    drops_probability: 25       
+  input_source: sine  
+  input_level_dB: 0               
+  rotation_speed: 38         
+  feedback:
+    enabled: false
+    attenuation_dB: 0          
+  dry_wet: 1                  
+  output_level_dB: 0           
+  playback_heads:
+    active_heads: [1]          
+    levels_dB:
+      1: -6
+    delays_ms:
+      1: 50
+  bandpass_filter:
+    center_frequency:
+      1: 15000
+    Q_factor:
+      1: 0
