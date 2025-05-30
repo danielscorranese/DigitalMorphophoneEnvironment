@@ -161,11 +161,10 @@
 					"fontname" : "Bahnschrift",
 					"fontsize" : 18.0,
 					"id" : "obj-18",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 436.021441578865051, 19.588235378265381, 278.0, 50.0 ],
+					"patching_rect" : [ 425.0, 18.0, 283.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 425.0, 18.0, 283.0, 28.0 ],
 					"text" : "Digital Morphophone Environment"
@@ -685,20 +684,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Bahnschrift",
-					"id" : "obj-5",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 290.02258063852787, 19.588235378265381, 49.0, 21.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 290.02258063852787, 19.588235378265381, 49.0, 21.0 ],
-					"text" : "Ver 1.0"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontface" : 1,
 					"fontname" : "Bahnschrift",
 					"fontsize" : 30.0,
@@ -706,7 +691,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 367.272580623626709, 10.588235378265381, 70.0, 43.0 ],
+					"patching_rect" : [ 362.0, 11.0, 70.0, 43.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 362.0, 11.0, 70.0, 43.0 ],
 					"text" : "DME"
