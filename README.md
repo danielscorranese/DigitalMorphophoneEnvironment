@@ -3,7 +3,7 @@
 ## Description
 __Max__ application that emulates the __morphophone__, a complex magnetophonic device (tape loop delay) developed in the 1950s within the laboratories of the GRM (Groupe de Recherches Musicales) in Paris. 
 
-The [audio_examples](audio_examples) folder contains `.wav` audio demonstrating the system's response to test signals (sine wave, impulse). Configuration details for each example are documented in the accompanying [DME_audioExamples_info.yaml](audio_examples/DME_audioExamples_info.yaml) file.
+The [audio_examples](audio_examples) folder contains `.wav` audio demonstrating the system's response to test signals (sine wave, impulse). Configuration details for each example are documented in [DME_audioExamples_info.yaml](audio_examples/DME_audioExamples_info.yaml).
 
 __UNDER DEVELOPMENT__
 
