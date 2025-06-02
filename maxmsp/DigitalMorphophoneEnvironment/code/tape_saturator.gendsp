@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 3,
+			"minor" : 6,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "dsp.gen",
-		"rect" : [ 195.0, 94.0, 1016.0, 720.0 ],
+		"rect" : [ 669.0, 258.0, 1009.0, 662.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,36 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 174.149993999999964, 15.0, 315.0, 22.0 ],
+					"text" : "param @name in_Gain @default 0. @min -70. @max 48."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 342.299987999999928, 47.0, 28.0, 22.0 ],
+					"text" : "in 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 678.999977999999828, 110.0, 319.0, 22.0 ],
+					"patching_rect" : [ 678.599975999999856, 47.0, 319.0, 22.0 ],
 					"text" : "param @name out_Gain @default 0 @min -24. @max 12."
 				}
 
@@ -57,32 +81,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 510.849983999999836, 76.0, 311.0, 22.0 ],
+					"patching_rect" : [ 510.449981999999864, 15.0, 311.0, 22.0 ],
 					"text" : "param @name Blend @default -10. @min -10 @max 10."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-9",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 342.699989999999957, 47.0, 301.0, 22.0 ],
-					"text" : "param @name Drive @default 5 @min 0.01 @max 10."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-8",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 174.549995999999965, 15.0, 315.0, 22.0 ],
-					"text" : "param @name in_Gain @default 0. @min -70. @max 48."
 				}
 
 			}
@@ -111,7 +111,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.400002000000001, 153.0, 691.599975999999856, 516.0 ]
+					"patching_rect" : [ 6.0, 90.0, 691.599975999999856, 516.0 ]
 				}
 
 			}
@@ -123,7 +123,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.400002000000001, 687.0, 37.739998, 22.0 ],
+					"patching_rect" : [ 6.0, 624.0, 37.739998, 22.0 ],
 					"text" : "out 1"
 				}
 
@@ -159,15 +159,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 1 ],
-					"source" : [ "obj-8", 0 ]
+					"destination" : [ "obj-3", 2 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 2 ],
-					"source" : [ "obj-9", 0 ]
+					"destination" : [ "obj-3", 1 ],
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}

@@ -2,8 +2,8 @@
 	"name" : "DigitalMorphophoneEnvironment",
 	"version" : 1,
 	"creationdate" : 3731757509,
-	"modificationdate" : 3797090043,
-	"viewrect" : [ 11.0, 74.0, 283.0, 447.0 ],
+	"modificationdate" : 3831724791,
+	"viewrect" : [ 10.0, 430.0, 463.0, 447.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -161,12 +161,17 @@
 				"local" : 1
 			}
 ,
-			"5_inputOutput.maxpat" : 			{
+			"midi_dB.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"drywet.maxpat" : 			{
+			"dB_midi.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"5_inputOutput.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -187,6 +192,11 @@
 			}
 ,
 			"about.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"drywet.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
