@@ -2,9 +2,9 @@
 
 # sine wave with no elaboration
 example_01:                    
-  file_name: "dme_example_01.wav"
+  file_name: dme_example_01.wav
   sample_rate: 48000           
-  operating_mode: "extended"   # philological or extended
+  operating_mode: extended   # philological or extended
   upsampling_factor: 8         # 1x, 8x, 16x
   saturation:
     enabled: false
@@ -27,14 +27,15 @@ example_01:
     levels_dB: [0]             # from -70 to 6
     delays_ms: [50]
   bandpass_filter:
+    correction: []             
     center_frequency: [15000]
     Q_factor: [0]
 
 # sine wave with saturation
 example_02:                   
-  file_name: "dme_example_02.wav"
+  file_name: dme_example_02.wav
   sample_rate: 48000           
-  operating_mode: "extended"   
+  operating_mode: extended   
   upsampling_factor: 8       
   saturation:
     enabled: true
@@ -57,14 +58,15 @@ example_02:
     levels_dB: [0]
     delays_ms: [50]
   bandpass_filter:
+    correction: []
     center_frequency: [15000]
     Q_factor: [0]
 
 # sine wave with saturation, playhead output attenuation
 example_03:                    
-  file_name: "dme_example_03.wav"
+  file_name: dme_example_03.wav
   sample_rate: 48000           
-  operating_mode: "extended"   
+  operating_mode: extended   
   upsampling_factor: 8         
   saturation:
     enabled: true
@@ -87,14 +89,15 @@ example_03:
     levels_dB: [-6]
     delays_ms: [50]
   bandpass_filter:
+    correction: []
     center_frequency: [15000]
     Q_factor: [0]
 
 # tape noise
 example_04:                    
-  file_name: "dme_example_04.wav"
+  file_name: dme_example_04.wav
   sample_rate: 48000           
-  operating_mode: "extended"   
+  operating_mode: extended   
   upsampling_factor: 8         
   saturation:
     enabled: false
@@ -117,14 +120,15 @@ example_04:
     levels_dB: [0]
     delays_ms: [50]
   bandpass_filter:
+    correction: []
     center_frequency: [15000]
     Q_factor: [0]
 
 # sine with flutter, upsampling x8
 example_05:                    
-  file_name: "dme_example_05.wav"
+  file_name: dme_example_05.wav
   sample_rate: 48000           
-  operating_mode: "extended"   
+  operating_mode: extended   
   upsampling_factor: 8         
   saturation:
     enabled: false
@@ -147,14 +151,15 @@ example_05:
     levels_dB: [0]
     delays_ms: [50]
   bandpass_filter:
+    correction: []
     center_frequency: [15000]
     Q_factor: [0]
 
 # sine with flutter, upsampling x16
 example_06:                    
-  file_name: "dme_example_06.wav"
+  file_name: dme_example_06.wav
   sample_rate: 48000           
-  operating_mode: "extended"   
+  operating_mode: extended   
   upsampling_factor: 16         
   saturation:
     enabled: false
@@ -177,15 +182,16 @@ example_06:
     levels_dB: [-6]
     delays_ms: [50]
   bandpass_filter:
+    correction: []
     center_frequency: [15000]
     Q_factor: [0]
 
 # impulse with 10 repetitions, 38 cm/s rotation speed, signal vector size 512
 example_07:                    
-  file_name: "dme_example_07.wav"
+  file_name: dme_example_07.wav
   sample_rate: 48000
   signal_vector_size: 512          
-  operating_mode: "extended"   
+  operating_mode: extended   
   upsampling_factor: 8       
   saturation:
     enabled: false
@@ -208,15 +214,16 @@ example_07:
     levels_dB: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     delays_ms: [50, 100, 150, 200, 250, 300, 350, 400, 450, 500]
   bandpass_filter:
+    correction: []
     center_frequency: [15000, 15000, 15000, 15000, 15000, 15000, 15000, 15000, 15000, 15000]
     Q_factor: [0,0,0,0,0,0,0,0,0,0]
 
 # impulse with 10 repetitions, 38 cm/s rotation speed, signal vector size 64
 example_08:                    
-  file_name: "dme_example_08.wav"
+  file_name: dme_example_08.wav
   sample_rate: 48000
   signal_vector_size: 64          
-  operating_mode: "extended"   
+  operating_mode: extended   
   upsampling_factor: 8       
   saturation:
     enabled: false
@@ -239,15 +246,16 @@ example_08:
     levels_dB: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     delays_ms: [50, 100, 150, 200, 250, 300, 350, 400, 450, 500]
   bandpass_filter:
+    correction: []
     center_frequency: [15000, 15000, 15000, 15000, 15000, 15000, 15000, 15000, 15000, 15000]
     Q_factor: [0,0,0,0,0,0,0,0,0,0]
 
 # impulse with 10 repetitions, 76 cm/s rotation speed, signal vector size 64
-example_08:                    
-  file_name: "dme_example_08.wav"
+example_09:                    
+  file_name: dme_example_09.wav
   sample_rate: 48000
   signal_vector_size: 64          
-  operating_mode: "extended"   
+  operating_mode: extended  
   upsampling_factor: 8       
   saturation:
     enabled: false
@@ -270,7 +278,38 @@ example_08:
     levels_dB: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     delays_ms: [25, 50, 75, 100, 125, 150, 175, 200, 225, 250]
   bandpass_filter:
+    correction: []
     center_frequency: [15000, 15000, 15000, 15000, 15000, 15000, 15000, 15000, 15000, 15000]
     Q_factor: [0,0,0,0,0,0,0,0,0,0]
 
+# short stream of white noise, philological mode, different center frequencies
+example_10:                    
+  file_name: dme_example_10.wav
+  sample_rate: 48000
+  operating_mode: philological   
+  upsampling_factor: 8       
+  saturation:
+    enabled: true
+    amount: 5                  
+  tape_hiss_level: 0          
+  flutter:
+    amount: 0                
+    drops_probability: 0     
+  input_source: white noise 
+  debug_source_level_dB: 0
+  input_level_dB: 0               
+  rotation_speed: 19      
+  feedback:
+    enabled: false
+    attenuation_dB: 0          
+  dry_wet: 0.5               
+  output_level_dB: 0           
+  playback_heads:
+    active_heads: [1, 2, 3, 4, 5, 6, 7]        
+    levels_dB: [6, 3, 0, -3, -6, -9, -12]
+    delays_ms: [100, 200, 300, 400, 500, 600, 700]
+  bandpass_filter:
+    correction: [1, 1, 1, 1, 1, 1, 1]
+    center_frequency: [32, 64, 128, 256, 512, 1024, 2048]
+    Q_factor: [4, 4, 4, 4, 4, 4, 4]
 
