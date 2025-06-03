@@ -14,6 +14,7 @@ example_01:
     amount: 0                  # from 0 to 100
     drops_probability: 0.5     # from 0 to 100
   input_source: sine  
+  debug_source_level_dB: -6
   input_level_dB: 0               
   rotation_speed: 38           # in cm/s
   feedback:
@@ -23,7 +24,7 @@ example_01:
   output_level_dB: 0           # final gain trim
   playback_heads:
     active_heads: [1]          # head numbers used (1 to 10)
-    levels_dB:
+    levels_dB:                 # from -70 to 6
       1: 0
     delays_ms:
       1: 50
@@ -46,7 +47,8 @@ example_02:
   flutter:
     amount: 0                  
     drops_probability: 0       
-  input_source: sine  
+  input_source: sine
+  debug_source_level_dB: -6
   input_level_dB: 0               
   rotation_speed: 38          
   feedback:
@@ -80,6 +82,7 @@ example_03:
     amount: 0                 
     drops_probability: 0       
   input_source: sine  
+  debug_source_level_dB: -6
   input_level_dB: 0               
   rotation_speed: 38         
   feedback:
@@ -90,7 +93,7 @@ example_03:
   playback_heads:
     active_heads: [1]          
     levels_dB:
-      1: -9
+      1: -6
     delays_ms:
       1: 50
   bandpass_filter:
@@ -112,7 +115,8 @@ example_04:
   flutter:
     amount: 0                 
     drops_probability: 0       
-  input_source: none  
+  input_source: none
+  debug_source_level_dB: //
   input_level_dB: 0               
   rotation_speed: 38         
   feedback:
@@ -133,7 +137,7 @@ example_04:
       1: 0
 
 # sine with flutter, upsampling x8
-example_04:                    
+example_05:                    
   file_name: "dme_example_04.wav"
   sample_rate: 48000           
   operating_mode: "extended"   
@@ -145,7 +149,8 @@ example_04:
   flutter:
     amount: 50                 
     drops_probability: 25       
-  input_source: sine  
+  input_source: sine
+  debug_source_level_dB: -6
   input_level_dB: 0               
   rotation_speed: 38         
   feedback:
@@ -156,7 +161,7 @@ example_04:
   playback_heads:
     active_heads: [1]          
     levels_dB:
-      1: -6
+      1: 0
     delays_ms:
       1: 50
   bandpass_filter:
@@ -166,7 +171,7 @@ example_04:
       1: 0
 
 # sine with flutter, upsampling x16
-example_04:                    
+example_06:                    
   file_name: "dme_example_04.wav"
   sample_rate: 48000           
   operating_mode: "extended"   
@@ -179,6 +184,7 @@ example_04:
     amount: 50                 
     drops_probability: 25       
   input_source: sine  
+  debug_source_level_dB: -6
   input_level_dB: 0               
   rotation_speed: 38         
   feedback:
