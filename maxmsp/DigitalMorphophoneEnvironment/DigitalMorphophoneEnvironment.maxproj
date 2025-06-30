@@ -2,8 +2,8 @@
 	"name" : "DigitalMorphophoneEnvironment",
 	"version" : 1,
 	"creationdate" : 3731757509,
-	"modificationdate" : 3831724791,
-	"viewrect" : [ 10.0, 430.0, 463.0, 447.0 ],
+	"modificationdate" : 3834122099,
+	"viewrect" : [ 97.0, 307.0, 463.0, 447.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -81,17 +81,12 @@
 				"local" : 1
 			}
 ,
-			"flutter.maxpat" : 			{
+			"writeHead.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"playHeads_V5.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"speed_conv.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -106,12 +101,17 @@
 				"local" : 1
 			}
 ,
-			"waveform_sliders_data.maxpat" : 			{
+			"flutter.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"writeHead.maxpat" : 			{
+			"speed_conv.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"waveform_sliders_data.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -136,6 +136,16 @@
 				"local" : 1
 			}
 ,
+			"tape_filter.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"dB_midi.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"dial_freq_set.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -146,27 +156,17 @@
 				"local" : 1
 			}
 ,
-			"phPlotConf.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"tape_filter.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"voiceMute.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"midi_dB.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"dB_midi.maxpat" : 			{
+			"phPlotConf.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"voiceMute.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -186,17 +186,17 @@
 				"local" : 1
 			}
 ,
+			"drywet.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"playheadsRouting.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"about.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"drywet.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
