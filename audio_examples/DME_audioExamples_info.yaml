@@ -4,7 +4,7 @@
 example_01:                    
   file_name: dme_example_01.wav
   sample_rate: 48000           
-  operating_mode: extended   # philological or extended
+  operating_mode: extended     # philological or extended
   upsampling_factor: 8         # 1x, 8x, 16x
   saturation:
     enabled: false
@@ -23,13 +23,14 @@ example_01:
   dry_wet: 1                   # from 0 (dry) to 1 (wet)
   output_level_dB: 0           # final gain trim
   playback_heads:
-    active_heads: [1]          # head numbers used (1 to 10)
+    active_heads: 1            # head numbers used (up to 10)
     levels_dB: [0]             # from -70 to 6
     delays_ms: [50]
   bandpass_filter:
     correction: []             
     center_frequency: [15000]
     Q_factor: [0]
+  routing: [1(1)]              # routing of playback heads to output channels (in this case, input 1 to output 1)
 
 # sine wave with saturation
 example_02:                   
@@ -54,13 +55,14 @@ example_02:
   dry_wet: 1                  
   output_level_dB: 0           
   playback_heads:
-    active_heads: [1]          
+    active_heads: 1        
     levels_dB: [0]
     delays_ms: [50]
   bandpass_filter:
     correction: []
     center_frequency: [15000]
     Q_factor: [0]
+  routing: [1(1)]
 
 # sine wave with saturation, playhead output attenuation
 example_03:                    
@@ -85,13 +87,14 @@ example_03:
   dry_wet: 1                  
   output_level_dB: 0           
   playback_heads:
-    active_heads: [1]          
+    active_heads: 1         
     levels_dB: [-6]
     delays_ms: [50]
   bandpass_filter:
     correction: []
     center_frequency: [15000]
     Q_factor: [0]
+  routing: [1(1)]
 
 # tape noise
 example_04:                    
@@ -116,13 +119,14 @@ example_04:
   dry_wet: 1                  
   output_level_dB: 0           
   playback_heads:
-    active_heads: [1]          
+    active_heads: 1         
     levels_dB: [0]
     delays_ms: [50]
   bandpass_filter:
     correction: []
     center_frequency: [15000]
     Q_factor: [0]
+  routing: [1(1)]
 
 # sine with flutter, upsampling x8
 example_05:                    
@@ -147,13 +151,14 @@ example_05:
   dry_wet: 1                  
   output_level_dB: 0           
   playback_heads:
-    active_heads: [1]          
+    active_heads: 1        
     levels_dB: [0]
     delays_ms: [50]
   bandpass_filter:
     correction: []
     center_frequency: [15000]
     Q_factor: [0]
+  routing: [1(1)]
 
 # sine with flutter, upsampling x16
 example_06:                    
@@ -178,13 +183,14 @@ example_06:
   dry_wet: 1                  
   output_level_dB: 0           
   playback_heads:
-    active_heads: [1]          
+    active_heads: 1        
     levels_dB: [-6]
     delays_ms: [50]
   bandpass_filter:
     correction: []
     center_frequency: [15000]
     Q_factor: [0]
+  routing: [1(1)]
 
 # impulse with 10 repetitions, 38 cm/s rotation speed, signal vector size 512
 example_07:                    
@@ -210,13 +216,14 @@ example_07:
   dry_wet: 0.5               
   output_level_dB: 0           
   playback_heads:
-    active_heads: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]         
+    active_heads: 10    
     levels_dB: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     delays_ms: [50, 100, 150, 200, 250, 300, 350, 400, 450, 500]
   bandpass_filter:
     correction: []
     center_frequency: [15000, 15000, 15000, 15000, 15000, 15000, 15000, 15000, 15000, 15000]
     Q_factor: [0,0,0,0,0,0,0,0,0,0]
+  routing: [1(1), 2(1), 3(1), 4(1), 5(1), 6(1), 7(1), 8(1), 9(1), 10(1)]
 
 # impulse with 10 repetitions, 38 cm/s rotation speed, signal vector size 64
 example_08:                    
@@ -242,13 +249,14 @@ example_08:
   dry_wet: 0.5               
   output_level_dB: 0           
   playback_heads:
-    active_heads: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]         
+    active_heads: 10       
     levels_dB: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     delays_ms: [50, 100, 150, 200, 250, 300, 350, 400, 450, 500]
   bandpass_filter:
     correction: []
     center_frequency: [15000, 15000, 15000, 15000, 15000, 15000, 15000, 15000, 15000, 15000]
     Q_factor: [0,0,0,0,0,0,0,0,0,0]
+  routing: [1(1), 2(1), 3(1), 4(1), 5(1), 6(1), 7(1), 8(1), 9(1), 10(1)]
 
 # impulse with 10 repetitions, 76 cm/s rotation speed, signal vector size 64
 example_09:                    
@@ -274,13 +282,14 @@ example_09:
   dry_wet: 0.5               
   output_level_dB: 0           
   playback_heads:
-    active_heads: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]         
+    active_heads: 10       
     levels_dB: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     delays_ms: [25, 50, 75, 100, 125, 150, 175, 200, 225, 250]
   bandpass_filter:
     correction: []
     center_frequency: [15000, 15000, 15000, 15000, 15000, 15000, 15000, 15000, 15000, 15000]
     Q_factor: [0,0,0,0,0,0,0,0,0,0]
+  routing: [1(1), 2(1), 3(1), 4(1), 5(1), 6(1), 7(1), 8(1), 9(1), 10(1)]
 
 # short stream of white noise, philological mode, different center frequencies
 example_10:                    
@@ -305,11 +314,75 @@ example_10:
   dry_wet: 0.5               
   output_level_dB: 0           
   playback_heads:
-    active_heads: [1, 2, 3, 4, 5, 6, 7]        
+    active_heads: 7      
     levels_dB: [6, 3, 0, -3, -6, -9, -12]
     delays_ms: [100, 200, 300, 400, 500, 600, 700]
   bandpass_filter:
     correction: [1, 1, 1, 1, 1, 1, 1]
     center_frequency: [32, 64, 128, 256, 512, 1024, 2048]
     Q_factor: [4, 4, 4, 4, 4, 4, 4]
+  routing: [1(1), 2(1), 3(1), 4(1), 5(1), 6(1), 7(1)]
 
+# speaking voice, all heads active, different playback heads configurations, mono
+example_11:                    
+  file_name: dme_example_11.wav
+  sample_rate: 48000
+  operating_mode: philological   
+  upsampling_factor: 8       
+  saturation:
+    enabled: true
+    amount: 5                  
+  tape_hiss_level: 0          
+  flutter:
+    amount: 25                
+    drops_probability: 0     
+  input_source: audio file 
+  debug_source_level_dB: 0
+  input_level_dB: -6               
+  rotation_speed: 38      
+  feedback:
+    enabled: false
+    attenuation_dB: 0          
+  dry_wet: 0.5               
+  output_level_dB: -6           
+  playback_heads:
+    active_heads: 10     
+    levels_dB: [-6, 1.7, 1.8, -10, 4.1, -2, 6, 2, -4, -9]
+    delays_ms: [157, 664, 934, 1568, 1839, 2063, 2388, 2813, 3090, 3950]
+  bandpass_filter:
+    correction: [1, 3, 3, 2, 2, 1, 3, 3, 2, 1]
+    center_frequency: [2048, 400, 3200, 300, 2400, 1024, 800, 1600, 1200, 512]
+    Q_factor: [5, 3.18, 6.36, 2.05, 5, 0.45, 10, 7.95, 20, 2.73]
+  routing: [1(1), 2(1), 3(1), 4(1), 5(1), 6(1), 7(1), 8(1), 9(1), 10(1)]
+
+# speaking voice, all heads active, different playback heads configurations, 4 output channels
+example_12:                    
+  file_name: dme_example_12.wav
+  sample_rate: 48000
+  operating_mode: philological   
+  upsampling_factor: 8       
+  saturation:
+    enabled: true
+    amount: 5                  
+  tape_hiss_level: 0          
+  flutter:
+    amount: 25                
+    drops_probability: 0     
+  input_source: audio file 
+  debug_source_level_dB: 0
+  input_level_dB: -6               
+  rotation_speed: 38      
+  feedback:
+    enabled: false
+    attenuation_dB: 0          
+  dry_wet: 0.5               
+  output_level_dB: -6           
+  playback_heads:
+    active_heads: 10     
+    levels_dB: [-6, 1.7, 1.8, -10, 4.1, -2, 6, 2, -4, -9]
+    delays_ms: [157, 664, 934, 1568, 1839, 2063, 2388, 2813, 3090, 3950]
+  bandpass_filter:
+    correction: [1, 3, 3, 2, 2, 1, 3, 3, 2, 1]
+    center_frequency: [2048, 400, 3200, 300, 2400, 1024, 800, 1600, 1200, 512]
+    Q_factor: [5, 3.18, 6.36, 2.05, 5, 0.45, 10, 7.95, 20, 2.73]
+  routing: [1(4), 2(1), 3(2), 4(1), 5(4), 6(2), 7(3), 8(1), 9(2), 10(3)]
