@@ -2,42 +2,18 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 9,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
 		"rect" : [ 41.0, 84.0, 1043.0, 412.0 ],
-		"bglocked" : 0,
 		"openinpresentation" : 1,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
 		"subpatcher_template" : "userTemplate_1",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-25",
@@ -108,7 +84,8 @@
 					"patching_rect" : [ 15.0, 23.0, 85.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 74.5, 82.0, 20.0 ],
-					"text" : "DSP On/Off"
+					"text" : "DSP On/Off",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -118,7 +95,7 @@
 					"comment" : "list: control data out",
 					"hint" : "list: control data out",
 					"id" : "obj-22",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -152,7 +129,8 @@
 					"patching_rect" : [ 558.5, 127.0, 45.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 7.0, 44.0, 21.0 ],
-					"text" : "Driver"
+					"text" : "Driver",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -170,9 +148,11 @@
 			}
 , 			{
 				"box" : 				{
+					"blanksym" : "",
 					"fontname" : "Bahnschrift",
 					"id" : "obj-11",
-					"items" : [ "None", ",", "ad_asio", "ASIO Fireface USB", ",", "ad_asio", "Elektron Analog Four", ",", "ad_asio", "Elektron Analog Four MKII", ",", "ad_asio", "Elektron Digitakt", ",", "ad_asio", "Focusrite Thunderbolt ASIO", ",", "ad_asio", "Focusrite USB ASIO", ",", "ad_asio", "Generic Low Latency ASIO Driver", ",", "ad_asio", "JackRouter", ",", "ad_asio", "Realtek ASIO", ",", "ad_asio", "ReaRoute ASIO (x64)", ",", "ad_asio", "SH-01", ",", "ad_directsound", "", ",", "ad_mme", "", ",", "NonRealTime", ",", "ad_portaudio", "MME", ",", "ad_portaudio", "Windows DirectSound", ",", "ad_portaudio", "Windows WASAPI", ",", "ad_portaudio", "Windows WDM-KS", ",", "ad_rewire" ],
+					"ignoreclick" : 1,
+					"items" : [ "None", ",", "ad_asio", "Ableton Move", ",", "ad_asio", "Ableton Push", ",", "ad_asio", "ASIO Fireface USB", ",", "ad_asio", "ASIO MADIface USB", ",", "ad_asio", "AudioBox ASIO Driver", ",", "ad_asio", "DN32-LIVE ASIO Driver", ",", "ad_asio", "DN32-USB ASIO Driver", ",", "ad_asio", "Elektron Analog Four", ",", "ad_asio", "Elektron Analog Four MKII", ",", "ad_asio", "Elektron Digitakt", ",", "ad_asio", "Focusrite Thunderbolt ASIO", ",", "ad_asio", "Focusrite USB ASIO", ",", "ad_asio", "Generic Low Latency ASIO Driver", ",", "ad_asio", "JackRouter", ",", "ad_asio", "Realtek ASIO", ",", "ad_asio", "ReaRoute ASIO (x64)", ",", "ad_asio", "SH-01", ",", "ad_asio", "SQ ASIO Driver", ",", "ad_asio", "Steinberg built-in ASIO Driver", ",", "ad_asio", "Waves SoundGrid ASIO", ",", "ad_asio", "X-USB ASIO Driver", ",", "ad_asio", "Yamaha Steinberg USB ASIO", ",", "ad_directsound", "<none>", ",", "ad_mme", "<none>", ",", "NonRealTime", ",", "ad_portaudio", "MME", ",", "ad_portaudio", "Windows DirectSound", ",", "ad_portaudio", "Windows WASAPI", ",", "ad_portaudio", "Windows WDM-KS" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -198,9 +178,11 @@
 			}
 , 			{
 				"box" : 				{
+					"blanksym" : "",
 					"fontname" : "Bahnschrift",
 					"id" : "obj-45",
-					"items" : 48000,
+					"ignoreclick" : 1,
+					"items" : [ 11025, ",", 12000, ",", 16000, ",", 22050, ",", 24000, ",", 32000, ",", 44100, ",", 48000, ",", 88200, ",", 96000, ",", 192000 ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -222,7 +204,8 @@
 					"patching_rect" : [ 826.0, 193.0, 24.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 296.0, 82.5, 20.0, 21.0 ],
-					"text" : "%"
+					"text" : "%",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -237,7 +220,8 @@
 					"patching_rect" : [ 786.5, 127.0, 69.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 236.0, 60.5, 69.0, 21.0 ],
-					"text" : "CPU usage"
+					"text" : "CPU usage",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -280,7 +264,8 @@
 					"patching_rect" : [ 433.0, 193.0, 25.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 167.0, 39.0, 25.0, 21.0 ],
-					"text" : "Hz"
+					"text" : "Hz",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -307,7 +292,8 @@
 					"patching_rect" : [ 250.5, 127.0, 77.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 39.0, 77.0, 21.0 ],
-					"text" : "Sample Rate"
+					"text" : "Sample Rate",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -490,6 +476,8 @@
 
 			}
  ],
+		"dependency_cache" : [  ],
+		"autosave" : 0,
 		"accentcolor" : [ 0.329411764705882, 0.329411764705882, 0.329411764705882, 1.0 ],
 		"bgcolor" : [ 0.411764705882353, 0.411764705882353, 0.411764705882353, 1.0 ],
 		"editing_bgcolor" : [ 0.490196078431373, 0.490196078431373, 0.490196078431373, 1.0 ]

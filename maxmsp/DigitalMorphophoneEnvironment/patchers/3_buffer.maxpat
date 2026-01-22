@@ -2,42 +2,18 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 5,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 9,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1852.0, 969.0 ],
-		"bglocked" : 0,
+		"rect" : [ 34.0, 77.0, 1639.0, 850.0 ],
 		"openinpresentation" : 1,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
 		"subpatcher_template" : "userTemplate_3",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-63",
@@ -135,7 +111,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 94.78151535987854, 657.638655662536621, 162.299464881420135, 48.0 ],
-					"text" : "trick to force the read before the write in the dsp chain\n(from the help file of ipoke~)"
+					"text" : "trick to force the read before the write in the dsp chain\n(from the help file of ipoke~)",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -289,7 +266,8 @@
 					"patching_rect" : [ 832.924446797370138, 646.638655662536621, 74.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 584.519056238232906, 7.67500346899044, 71.0, 21.0 ],
-					"text" : "Tape lenght"
+					"text" : "Tape lenght",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -303,7 +281,8 @@
 					"patching_rect" : [ 889.924446797370138, 670.638655662536621, 18.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 699.773069597779568, 6.437500059604645, 18.0, 21.0 ],
-					"text" : "s"
+					"text" : "s",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -459,6 +438,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"drawoffcolor" : 1,
 					"floatoutput" : 1,
 					"id" : "obj-119",
 					"ignoreclick" : 1,
@@ -481,6 +461,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"drawoffcolor" : 1,
 					"floatoutput" : 1,
 					"id" : "obj-118",
 					"ignoreclick" : 1,
@@ -503,6 +484,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"drawoffcolor" : 1,
 					"floatoutput" : 1,
 					"id" : "obj-117",
 					"ignoreclick" : 1,
@@ -525,6 +507,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"drawoffcolor" : 1,
 					"floatoutput" : 1,
 					"id" : "obj-116",
 					"ignoreclick" : 1,
@@ -547,6 +530,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"drawoffcolor" : 1,
 					"floatoutput" : 1,
 					"id" : "obj-115",
 					"ignoreclick" : 1,
@@ -569,6 +553,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"drawoffcolor" : 1,
 					"floatoutput" : 1,
 					"id" : "obj-112",
 					"ignoreclick" : 1,
@@ -591,6 +576,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"drawoffcolor" : 1,
 					"floatoutput" : 1,
 					"id" : "obj-111",
 					"ignoreclick" : 1,
@@ -613,6 +599,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"drawoffcolor" : 1,
 					"floatoutput" : 1,
 					"id" : "obj-110",
 					"ignoreclick" : 1,
@@ -635,6 +622,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"drawoffcolor" : 1,
 					"floatoutput" : 1,
 					"id" : "obj-29",
 					"ignoreclick" : 1,
@@ -657,6 +645,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"drawoffcolor" : 1,
 					"floatoutput" : 1,
 					"id" : "obj-11",
 					"ignoreclick" : 1,
@@ -679,6 +668,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"drawoffcolor" : 1,
 					"elementcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 1.0 ],
 					"floatoutput" : 1,
 					"id" : "obj-2",
