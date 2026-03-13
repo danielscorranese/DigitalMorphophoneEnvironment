@@ -1,0 +1,269 @@
+{
+    "pattrstorage": {
+        "name": "controlsData",
+        "slots": {
+            "1": {
+                "id": 1,
+                "data": {
+                    "1_globalSettings::speed_INIT": [ 1 ],
+                    "1_globalSettings::headDim": [ 0.0 ],
+                    "1_globalSettings::reset": [ 1 ],
+                    "1_globalSettings::mode": [ 1 ],
+                    "1_globalSettings::tapeNoise": [ 0.0 ],
+                    "1_globalSettings::drive_amp": [ 4.9 ],
+                    "1_globalSettings::drive_byp": [ 0 ],
+                    "2_delayTimes::ph1_d": [ 49.99999999999999 ],
+                    "2_delayTimes::ph2_d": [ 100.0 ],
+                    "2_delayTimes::ph3_d": [ 400.0 ],
+                    "2_delayTimes::ph4_d": [ 750.0 ],
+                    "2_delayTimes::ph5_d": [ 1050.0 ],
+                    "2_delayTimes::ph6_d": [ 1400.0 ],
+                    "2_delayTimes::ph7_d": [ 1750.0 ],
+                    "2_delayTimes::ph8_d": [ 2050.0 ],
+                    "2_delayTimes::ph9_d": [ 2400.0 ],
+                    "2_delayTimes::ph10_d": [ 2750.0 ],
+                    "4_amp&filters::dial": [ 78.53947368421052 ],
+                    "4_amp&filters::dial[10]": [ 6 ],
+                    "4_amp&filters::dial[11]": [ 6 ],
+                    "4_amp&filters::dial[12]": [ 6 ],
+                    "4_amp&filters::dial[13]": [ 5 ],
+                    "4_amp&filters::dial[14]": [ 5 ],
+                    "4_amp&filters::dial[15]": [ 5 ],
+                    "4_amp&filters::dial[16]": [ 4 ],
+                    "4_amp&filters::dial[17]": [ 4 ],
+                    "4_amp&filters::dial[18]": [ 4 ],
+                    "4_amp&filters::dial[19]": [ 3 ],
+                    "4_amp&filters::dial[1]": [ 81.88157894736842 ],
+                    "4_amp&filters::dial[20]": [ 4.0 ],
+                    "4_amp&filters::dial[21]": [ 4.0 ],
+                    "4_amp&filters::dial[22]": [ 4.0 ],
+                    "4_amp&filters::dial[23]": [ 4.0 ],
+                    "4_amp&filters::dial[24]": [ 4.0 ],
+                    "4_amp&filters::dial[25]": [ 4.0 ],
+                    "4_amp&filters::dial[26]": [ 4.0 ],
+                    "4_amp&filters::dial[27]": [ 4.0 ],
+                    "4_amp&filters::dial[28]": [ 4.0 ],
+                    "4_amp&filters::dial[29]": [ 4.0 ],
+                    "4_amp&filters::dial[2]": [ 86.89473684210525 ],
+                    "4_amp&filters::dial[3]": [ 91.9078947368421 ],
+                    "4_amp&filters::dial[4]": [ 96.92105263157895 ],
+                    "4_amp&filters::dial[5]": [ 101.93421052631578 ],
+                    "4_amp&filters::dial[6]": [ 106.94736842105263 ],
+                    "4_amp&filters::dial[7]": [ 111.96052631578947 ],
+                    "4_amp&filters::dial[8]": [ 116.97368421052632 ],
+                    "4_amp&filters::dial[9]": [ 121.98684210526315 ],
+                    "4_amp&filters::ph1_t": [ 1 ],
+                    "4_amp&filters::ph2_t": [ 1 ],
+                    "4_amp&filters::ph3_t": [ 1 ],
+                    "4_amp&filters::ph4_t": [ 1 ],
+                    "4_amp&filters::ph5_t": [ 1 ],
+                    "4_amp&filters::ph6_t": [ 1 ],
+                    "4_amp&filters::ph7_t": [ 1 ],
+                    "4_amp&filters::ph8_t": [ 1 ],
+                    "4_amp&filters::ph9_t": [ 1 ],
+                    "4_amp&filters::ph10_t": [ 1 ],
+                    "4_amp&filters::ph1_g": [ 3.0 ],
+                    "4_amp&filters::ph2_g": [ -0.0 ],
+                    "4_amp&filters::ph3_g": [ -3.0 ],
+                    "4_amp&filters::ph4_g": [ -6.0 ],
+                    "4_amp&filters::ph5_g": [ -9.0 ],
+                    "4_amp&filters::ph6_g": [ -12.0 ],
+                    "4_amp&filters::ph7_g": [ -15.0 ],
+                    "4_amp&filters::ph8_g": [ -18.0 ],
+                    "4_amp&filters::ph9_g": [ -21.0 ],
+                    "4_amp&filters::ph10_g": [ -23.0 ],
+                    "4_amp&filters::ph1_c": [ 3 ],
+                    "4_amp&filters::ph2_c": [ 2 ],
+                    "4_amp&filters::ph3_c": [ 1 ],
+                    "4_amp&filters::ph4_c": [ 3 ],
+                    "4_amp&filters::ph5_c": [ 2 ],
+                    "4_amp&filters::ph6_c": [ 1 ],
+                    "4_amp&filters::ph7_c": [ 3 ],
+                    "4_amp&filters::ph8_c": [ 2 ],
+                    "4_amp&filters::ph9_c": [ 1 ],
+                    "4_amp&filters::ph10_c": [ 3 ],
+                    "4_amp&filters::ph1_f": [ 3200.0 ],
+                    "4_amp&filters::ph2_f": [ 2400.0 ],
+                    "4_amp&filters::ph3_f": [ 2048.0 ],
+                    "4_amp&filters::ph4_f": [ 1600.0 ],
+                    "4_amp&filters::ph5_f": [ 1200.0 ],
+                    "4_amp&filters::ph6_f": [ 1024.0 ],
+                    "4_amp&filters::ph7_f": [ 800.0 ],
+                    "4_amp&filters::ph8_f": [ 600.0 ],
+                    "4_amp&filters::ph9_f": [ 512.0 ],
+                    "4_amp&filters::ph10_f": [ 400.0 ],
+                    "4_amp&filters::ph1_q": [ 4.0 ],
+                    "4_amp&filters::ph2_q": [ 4.0 ],
+                    "4_amp&filters::ph3_q": [ 4.0 ],
+                    "4_amp&filters::ph4_q": [ 4.0 ],
+                    "4_amp&filters::ph5_q": [ 4.0 ],
+                    "4_amp&filters::ph6_q": [ 4.0 ],
+                    "4_amp&filters::ph7_q": [ 4.0 ],
+                    "4_amp&filters::ph8_q": [ 4.0 ],
+                    "4_amp&filters::ph9_q": [ 4.0 ],
+                    "4_amp&filters::ph10_q": [ 4.0 ],
+                    "5_inputOutput::playheadsRouting::routing": [
+                        {
+                            "data": {
+                                "numins": 10,
+                                "numouts": 11,
+                                "connections": [
+                                    {
+                                        "in": 0,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 0,
+                                        "out": 1,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 1,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 1,
+                                        "out": 1,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 2,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 2,
+                                        "out": 1,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 3,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 3,
+                                        "out": 1,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 4,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 4,
+                                        "out": 1,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 5,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 5,
+                                        "out": 1,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 6,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 6,
+                                        "out": 1,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 7,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 7,
+                                        "out": 1,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 8,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 8,
+                                        "out": 1,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 9,
+                                        "out": 0,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 9,
+                                        "out": 1,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 0,
+                                        "out": 10,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 1,
+                                        "out": 10,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 2,
+                                        "out": 10,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 3,
+                                        "out": 10,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 4,
+                                        "out": 10,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 5,
+                                        "out": 10,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 6,
+                                        "out": 10,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 7,
+                                        "out": 10,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 8,
+                                        "out": 10,
+                                        "gain": 1.0
+                                    },
+                                    {
+                                        "in": 9,
+                                        "out": 10,
+                                        "gain": 1.0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
