@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 77.0, 1639.0, 850.0 ],
+        "rect": [ 134.0, 134.0, 1639.0, 850.0 ],
         "openinpresentation": 1,
         "subpatcher_template": "morphophone_gui",
         "showontab": 0,
@@ -793,14 +793,14 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.450980392156863, 0.462745098039216, 0.458823529411765, 1.0 ],
+                    "bgcolor": [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1.0 ],
                     "bgcolor2": [ 0.2, 0.2, 0.2, 1.0 ],
                     "bgfillcolor_angle": 270.0,
                     "bgfillcolor_autogradient": 0.0,
-                    "bgfillcolor_color": [ 0.450980392156863, 0.462745098039216, 0.458823529411765, 1.0 ],
-                    "bgfillcolor_color1": [ 0.450980392156863, 0.462745098039216, 0.458823529411765, 1.0 ],
+                    "bgfillcolor_color": [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1.0 ],
+                    "bgfillcolor_color1": [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1.0 ],
                     "bgfillcolor_color2": [ 0.2, 0.2, 0.2, 1.0 ],
-                    "bgfillcolor_proportion": 0.76374859708193,
+                    "bgfillcolor_proportion": 0.791806958473625,
                     "bgfillcolor_type": "gradient",
                     "fontname": "Bahnschrift",
                     "fontsize": 10.0,
@@ -819,14 +819,14 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.450980392156863, 0.462745098039216, 0.458823529411765, 1.0 ],
+                    "bgcolor": [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1.0 ],
                     "bgcolor2": [ 0.2, 0.2, 0.2, 1.0 ],
                     "bgfillcolor_angle": 270.0,
                     "bgfillcolor_autogradient": 0.0,
-                    "bgfillcolor_color": [ 0.2, 0.2, 0.2, 1.0 ],
-                    "bgfillcolor_color1": [ 0.450980392156863, 0.462745098039216, 0.458823529411765, 1.0 ],
+                    "bgfillcolor_color": [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1.0 ],
+                    "bgfillcolor_color1": [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1.0 ],
                     "bgfillcolor_color2": [ 0.2, 0.2, 0.2, 1.0 ],
-                    "bgfillcolor_proportion": 0.76374859708193,
+                    "bgfillcolor_proportion": 0.791806958473625,
                     "bgfillcolor_type": "gradient",
                     "fontface": 2,
                     "fontname": "Bahnschrift",
@@ -1668,14 +1668,14 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.450980392156863, 0.462745098039216, 0.458823529411765, 1.0 ],
+                    "bgcolor": [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1.0 ],
                     "bgcolor2": [ 0.2, 0.2, 0.2, 1.0 ],
                     "bgfillcolor_angle": 270.0,
                     "bgfillcolor_autogradient": 0.0,
-                    "bgfillcolor_color": [ 0.0, 0.0, 0.0, 0.0 ],
-                    "bgfillcolor_color1": [ 0.450980392156863, 0.462745098039216, 0.458823529411765, 1.0 ],
+                    "bgfillcolor_color": [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1.0 ],
+                    "bgfillcolor_color1": [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1.0 ],
                     "bgfillcolor_color2": [ 0.2, 0.2, 0.2, 1.0 ],
-                    "bgfillcolor_proportion": 0.741301907968575,
+                    "bgfillcolor_proportion": 0.791806958473625,
                     "bgfillcolor_type": "gradient",
                     "fontname": "Bahnschrift",
                     "gradient": 1,
@@ -1792,12 +1792,12 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.450980392156863, 0.462745098039216, 0.458823529411765, 1.0 ],
+                    "bgcolor": [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1.0 ],
                     "bgcolor2": [ 0.2, 0.2, 0.2, 1.0 ],
                     "bgfillcolor_angle": 270.0,
                     "bgfillcolor_autogradient": 0.0,
-                    "bgfillcolor_color": [ 0.2, 0.2, 0.2, 1.0 ],
-                    "bgfillcolor_color1": [ 0.450980392156863, 0.462745098039216, 0.458823529411765, 1.0 ],
+                    "bgfillcolor_color": [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1.0 ],
+                    "bgfillcolor_color1": [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1.0 ],
                     "bgfillcolor_color2": [ 0.2, 0.2, 0.2, 1.0 ],
                     "bgfillcolor_proportion": 0.791806958473625,
                     "bgfillcolor_type": "gradient",
@@ -1838,12 +1838,12 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.450980392156863, 0.462745098039216, 0.458823529411765, 1.0 ],
+                    "bgcolor": [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1.0 ],
                     "bgcolor2": [ 0.2, 0.2, 0.2, 1.0 ],
                     "bgfillcolor_angle": 270.0,
                     "bgfillcolor_autogradient": 0.0,
-                    "bgfillcolor_color": [ 0.2, 0.2, 0.2, 1.0 ],
-                    "bgfillcolor_color1": [ 0.450980392156863, 0.462745098039216, 0.458823529411765, 1.0 ],
+                    "bgfillcolor_color": [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1.0 ],
+                    "bgfillcolor_color1": [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1.0 ],
                     "bgfillcolor_color2": [ 0.2, 0.2, 0.2, 1.0 ],
                     "bgfillcolor_proportion": 0.791806958473625,
                     "bgfillcolor_type": "gradient",
@@ -1862,12 +1862,12 @@
             },
             {
                 "box": {
-                    "bgcolor": [ 0.450980392156863, 0.462745098039216, 0.458823529411765, 1.0 ],
+                    "bgcolor": [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1.0 ],
                     "bgcolor2": [ 0.2, 0.2, 0.2, 1.0 ],
                     "bgfillcolor_angle": 270.0,
                     "bgfillcolor_autogradient": 0.0,
-                    "bgfillcolor_color": [ 0.2, 0.2, 0.2, 1.0 ],
-                    "bgfillcolor_color1": [ 0.450980392156863, 0.462745098039216, 0.458823529411765, 1.0 ],
+                    "bgfillcolor_color": [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1.0 ],
+                    "bgfillcolor_color1": [ 0.172137149796092, 0.172137100044002, 0.172137113045018, 1.0 ],
                     "bgfillcolor_color2": [ 0.2, 0.2, 0.2, 1.0 ],
                     "bgfillcolor_proportion": 0.791806958473625,
                     "bgfillcolor_type": "gradient",
@@ -1931,7 +1931,7 @@
                     "comment": "list: control data in",
                     "hint": "list: control data in",
                     "id": "obj-8",
-                    "index": 2,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -2052,11 +2052,11 @@
                     "comment": "mc.sig~ = processed signal",
                     "hint": "mc.sig~ = processed signal",
                     "id": "obj-7",
-                    "index": 1,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "multichannelsignal" ],
+                    "outlettype": [ "" ],
                     "patching_rect": [ 975.0, 49.5, 30.0, 30.0 ]
                 }
             },
@@ -2066,7 +2066,7 @@
                     "comment": "sig~ : signal to prcess",
                     "hint": "sig~ : signal to prcess",
                     "id": "obj-6",
-                    "index": 1,
+                    "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -2900,7 +2900,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-111", 1 ],
-                    "order": 1,
+                    "order": 2,
                     "source": [ "obj-55", 0 ]
                 }
             },
@@ -2921,7 +2921,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-22", 0 ],
-                    "order": 2,
+                    "order": 1,
                     "source": [ "obj-55", 0 ]
                 }
             },
@@ -3071,6 +3071,23 @@
                 }
             }
         ],
+        "parameters": {
+            "obj-149": [ "number[1]", "number[1]", 0 ],
+            "obj-150": [ "feedbackValue", "feedbackValue", 0 ],
+            "obj-25": [ "dial", "dial", 0 ],
+            "obj-88": [ "dial[2]", "dial[2]", 0 ],
+            "obj-93": [ "dial[1]", "dial[1]", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
+            "inherited_shortname": 1
+        },
+        "autosave": 0,
         "styles": [
             {
                 "name": "AudioStatus_Menu",
