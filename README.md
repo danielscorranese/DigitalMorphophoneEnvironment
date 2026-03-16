@@ -1,19 +1,50 @@
-# DIGITAL MORPHOPHONE ENVIRONMENT
+# Digital Morphophone Environment
 
-## Description
-__Max__ application that emulates the __morphophone__, a complex magnetophonic device (tape loop delay) developed in the 1950s within the laboratories of the GRM (Groupe de Recherches Musicales) in Paris. 
+![License](https://img.shields.io/badge/License-GPL%203.0-blue.svg)
 
-The [audio_examples](audio_examples) folder contains `.wav` audio demonstrating the system's response to test signals (sine wave, impulse). Configuration details for each example are documented in [DME_audioExamples_info.yaml](audio_examples/DME_audioExamples_info.yaml).
+Digital Morphophone Environment (DME) is a Max application that emulates the historical *morphophone*, a complex magnetophonic tape-loop delay device developed in the 1950s at GRM (Groupe de Recherches Musicales, Paris).
 
-__UNDER DEVELOPMENT__
+The project is under active development.
+
+## Requirements
+
+- Cycling '74 Max to open and run the project.
+- A supported `ipoke~` external for your operating system, bundled in [maxmsp/DigitalMorphophoneEnvironment/externals](maxmsp/DigitalMorphophoneEnvironment/externals).
+	- Windows support is provided through the included `ipoke~.mxe` and `ipoke~.mxe64` binaries.
+	- macOS support is currently provided through the included `ipoke~.mxo` bundle for Intel processors only.
+
+## Quick start
+
+1. Open [maxmsp/DigitalMorphophoneEnvironment/DigitalMorphophoneEnvironment.maxproj](maxmsp/DigitalMorphophoneEnvironment/DigitalMorphophoneEnvironment.maxproj) in Max.
+2. Select audio driver and sample rate frequency.
+3. Turn DSP on.
+4. In the __input / output signals section__, choose an input source.
+5. Arm recording to write into the buffer, then start the motor.
+6. Set playheads delay values, levels and filter settings, then adjust dry/wet and input/output levels.
+7. Try features such as flutter, saturation, and tape noise to explore the full behavior.
 
 ## Externals
-See [other](maxmsp/DigitalMorphophoneEnvironment/other) folder for more infos. The externals employed are:
 
-`ipoke~` by Pierre Alexandre Tremblay (2005-2018)
+The project uses:
 
-`tape/tube warmth` GenExpr function by stkr, Feb. 2012.
+- `ipoke~` by Pierre Alexandre Tremblay (2005-2018)
+- `tape/tube warmth` GenExpr function by stkr (Feb. 2012)
+
+External resources are available in [maxmsp/DigitalMorphophoneEnvironment/other](maxmsp/DigitalMorphophoneEnvironment/other):
+
+- `ipoke.Windows.zip`
+- `ipoke.MacOS.zip`
+- `579066331-stkr.waveshaping.zip`
 
 ## Known issues
-* The buffer import and export functions are not constrained by the oversampling operations performed in the poly instances.
-* In specific configurations, the first and last read pointers may overlap with the write pointer, resulting in unwanted glitches. This issue occurs when the flutter function is enabled and the read pointers are positioned close to the write pointer.
+
+1. Buffer import/export does not currently account for oversampling in poly instances.
+2. In specific configurations, first/last read pointers can overlap the write pointer and produce glitches.
+
+## License
+
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
+
+## Third-party licenses
+
+This project uses [ipoke~](https://github.com/tremblap/ipoke-) by Pierre Alexandre Tremblay, licensed under the BSD 3-Clause License.
